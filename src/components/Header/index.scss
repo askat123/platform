@@ -1,0 +1,60 @@
+#header{
+    background: #0A1128;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    a{
+        color: white;
+        font-weight: 600;
+    }
+  
+    background: #040e2c;
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--logo{
+            display: flex;
+            align-items: center;
+            gap: 39px;
+        }
+        &--sign{
+            button{
+                padding: 18px 40px;
+                background: #034078;
+                border: none;
+                color: aliceblue;
+                font-size: 15px;
+                border-radius: 10px;
+                font-weight: 600;
+
+            }
+          
+            a{
+                color: aliceblue;
+                padding: 12px 20px;
+              
+            }
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        &--sign{
+          
+            button{
+                padding: 12px 35px;
+                background: #034078;
+                color: aliceblue;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
