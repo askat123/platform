@@ -1,0 +1,167 @@
+#front{
+    background: #0A1128;
+    padding: 150px 0 ; 
+    .front{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+       &--block{
+        h3{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 61px 0 100px 0;
+        }
+        h1{
+            color: #FFF;
+font-family: Montserrat,sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0 0 50px 0;
+        }
+        p{
+            color: #FFF;
+            font-family: Montserrat, sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 0 0 50px 0;
+        }
+       } 
+       &--end{
+        margin: 15% 15% 0 0;
+
+        h3{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0 0 15PX 0;
+        }
+        h2{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0 0 60px 0;
+        }
+        h4{
+            color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0 0 15px 0;
+        }
+       }
+    }
+    .study{
+       display: flex;
+        h2{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 27px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 80px 0 30px 0;
+        }
+        &--dev{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin: 30px 0;
+            h3{
+                color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+            div{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #FFF;
+                margin: 0 10px 0 0;
+            }
+            p{
+                color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+        }
+        &--developer{
+            margin: 350px 0 0 0px;
+        }
+    }
+    .kurs{
+        h2{
+            padding: 80px 0 30px 0;
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+        }
+        p{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 27px;
+font-weight: 400;
+line-height: 40px;
+margin: 35px 0;
+        }
+        h3{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 80px 0 80px 0;
+        }
+      &--btn1{
+        color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 25px 115px 25px 115px;
+border-radius: 10px;
+background: #044076;
+border: none;
+
+      } 
+      &--btn2{
+        margin: 0 150px;
+        color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 25px 75px 25px 75px;
+border-radius: 10px;
+border: #044076 solid 2px;
+background: #0A1128;
+      } 
+    }
+}

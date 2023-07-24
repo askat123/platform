@@ -1,0 +1,66 @@
+#material{
+    background: #0A1128;
+    padding: 150px 0 ;
+    .matarial{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      &--book{
+        img{
+            text-align: center;
+            margin-left: 100px;
+            width: 120px;
+            height: 100px;
+            
+        }
+        h1{
+            color: #FFF;
+            text-align: center;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 38px 0 35px 0;
+width: 330px;
+        }
+        p{
+            text-align: center;
+            color: #FFF;
+font-family: Montserrat,sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+      }
+    }
+    .block{
+        text-align: center;
+        margin: 165px 0;
+        img{
+            width: 550px;
+            height: 600px;
+        }
+        p{
+            color: #A5A5A5;
+font-family: Montserrat,sans-serif;
+font-size: 30px;
+font-weight: 500;
+padding: 20px 0;
+        }
+        h1{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 50px;
+font-weight: 700;
+        }
+       h4{
+        color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 30px;
+font-weight: 400;
+padding: 20px 0;
+       }
+    }
+}

@@ -1,0 +1,84 @@
+#school{
+    background: #0A1128;
+    padding: 150px 0 ; 
+
+    .school{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h4{
+          color: white;
+          font-family: Montserrat;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding:  0 0 92px 0;
+        }
+        &--one{
+          h1{
+            color: #FFF;
+font-family: Montserrat;
+font-size: 49px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0 0 15px 0;
+          }
+          p{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0 0 50px 0;
+          }
+        }
+        &--two{
+            h1{
+                color: #FFF;
+font-family: Montserrat;
+font-size: 49px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0 0 15px 0;
+            }
+            p{
+                color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+        }
+        img{
+            padding-top: 150px;
+            display: flex;
+width: 700px;
+height: 550px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

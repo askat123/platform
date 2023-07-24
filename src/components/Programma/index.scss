@@ -1,0 +1,106 @@
+#programma{
+    background: #0A1128;
+    padding: 150px 0 ;
+    h1{
+        color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 15px 0;
+    } 
+    .programma{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+        &--one{
+
+            
+            &__block{
+            border: 2px solid #044076;
+            width: 750px;
+height: 69.62px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+            h2{
+                color: #FFF;
+text-align: right;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0 0 0 50px;
+}
+p{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 0 130px 0 0;
+}
+h6{
+                color: #FFF;
+                font-family: Montserrat, sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding: 0 40% 0 0;
+            }
+            h5{
+                color: #FFF;
+                font-family: Montserrat, sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding: 0 42% 0 0;
+            }
+            h4{
+                color: #FFF;
+                font-family: Montserrat, sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding: 0 44% 0 0;
+            }
+            h3{
+                color: #FFF;
+                font-family: Montserrat, sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding: 0 54% 0 0; 
+            }
+        }
+    }
+    img {
+        margin-right: 200px;
+        width: 500px;
+        height: 479px;
+    }
+  }
+  button{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 25px 75px;
+border-radius: 10px;
+background: #044076;
+border: none;
+margin: 47px 0;
+  }
+}

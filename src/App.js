@@ -6,6 +6,8 @@ import Home from './components/Home';
 import MySchool from './components/Myschool';
 import AboutUs from './components/Aboutus';
 import OurCours from './components/Ourcours';
+import Frontend from './components/Frontend';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path='/myschool' element={ <MySchool/>}/>
         <Route path='/ourcours' element={ <OurCours/>}/>
         <Route path='/aboutus' element={ <AboutUs/>}/>
+        <Route path='/front' element={<Frontend/>}/>
       </Routes>
       <Footer/>
     </div>

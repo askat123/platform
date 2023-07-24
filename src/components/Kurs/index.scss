@@ -1,0 +1,74 @@
+#kurs{
+  background: #0A1128;
+  padding: 0 0 350px 0;
+  
+  h1{
+    color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; 
+text-align: center;
+padding: 100px 0;
+  }
+    .kurs{
+      
+      &--block{
+          display: flex;
+            align-items: center;
+            justify-content: space-between;
+          
+        
+      &__one{
+        background: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 520px;
+        height: 400px;
+        
+      } 
+      h2{
+        padding: 30px 29px 20px 40px;
+        font-size: 37px;
+      }
+      p{
+        padding: 0 29px 17px 40px;
+        color: #000;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;    
+      }
+      h3{
+        padding: 0 29px 17px 35px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #000;
+        // border-bottom: 3px solid black;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+      } 
+     
+    }
+    button{
+      color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 5px;
+background: #043C71;
+border: none;
+padding: 16px 61px 15px 61px;
+margin: 50px 0 0 750px;
+
+    }
+  }
+}
