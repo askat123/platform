@@ -6,6 +6,10 @@
     a{
         color: white;
         font-weight: 600;
+    
+    }
+    .active{
+        color: #034078;
     }
   
     background: #040e2c;
@@ -25,6 +29,7 @@
             gap: 39px;
         }
         &--sign{
+            padding-right: 100px;
             button{
                 padding: 18px 40px;
                 background: #034078;
