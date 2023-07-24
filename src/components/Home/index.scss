@@ -1,0 +1,56 @@
+#hero {
+  padding: 10px 0 800px 0;
+  background: #0a1128;
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--text {
+      font-family: sans-serif;
+      margin: 70px 0 -520px 0;
+      width: 400px;
+      h1 {
+        color: #fff;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        width: 473px;
+        margin-bottom: 30px;
+      }
+      p {
+        color: #fff;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+      }
+    }
+    &--img {
+      margin: 13px 0 0 -225px;
+      &__img1 {
+        margin: -890px 0 0 331px;
+        &--a {
+          position: absolute;
+          margin: -4px 0 0 255px;
+        }
+        &--b {
+          position: absolute;
+          margin: 170px 0 0 92px;
+        }
+        &--c {
+          position: absolute;
+          margin: 274px 0 0 585px;
+        }
+        &--d {
+          position: absolute;
+          margin: 330px 0 0 311px;
+        }
+        &--i {
+          width: 600px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
