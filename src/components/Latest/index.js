@@ -1,22 +1,18 @@
 import React from "react";
-import "./index.scss";
 import { LiaClipboardListSolid } from "react-icons/lia";
+import "./index.scss";
 import logo from "../../img/article1.png";
 import { Link } from "react-router-dom";
 
-const Article = () => {
+const Latest = () => {
   return (
-    <div id="article">
+    <div id="latest">
       <div className="container">
-        <div className="article">
-          <p>
-            Главная / <span>Наши курсы</span>
-          </p>
-          <center>
-            <h1>Статьи</h1>
-          </center>
-          <div className="article--blocks">
-            <div className="article--blocks__block">
+        <div className="latest">
+          <h1>Последние статьи</h1>
+          <div className="latest--blocks">
+                <Link to={"/article/weprep"}>
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -24,18 +20,17 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
-                <Link to={"/article/weprep"}>
+              <div className="latest--blocks__block--date">
                   <p1>
                     <LiaClipboardListSolid />
                     Читать
                   </p1>
+                <p2>01.02.2022</p2>
+              </div>
+            </div>
                 </Link>
-                <p2>01.02.2022</p2>
-              </div>
-            </div>
 
-            <div className="article--blocks__block">
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -43,7 +38,7 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
+              <div className="latest--blocks__block--date">
                 <p1>
                   <LiaClipboardListSolid /> Читать
                 </p1>
@@ -51,7 +46,7 @@ const Article = () => {
               </div>
             </div>
 
-            <div className="article--blocks__block">
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -59,7 +54,7 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
+              <div className="latest--blocks__block--date">
                 <p1>
                   <LiaClipboardListSolid /> Читать
                 </p1>
@@ -67,7 +62,7 @@ const Article = () => {
               </div>
             </div>
 
-            <div className="article--blocks__block">
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -75,7 +70,7 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
+              <div className="latest--blocks__block--date">
                 <p1>
                   <LiaClipboardListSolid /> Читать
                 </p1>
@@ -83,7 +78,7 @@ const Article = () => {
               </div>
             </div>
 
-            <div className="article--blocks__block">
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -91,7 +86,7 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
+              <div className="latest--blocks__block--date">
                 <p1>
                   <LiaClipboardListSolid /> Читать
                 </p1>
@@ -99,7 +94,7 @@ const Article = () => {
               </div>
             </div>
 
-            <div className="article--blocks__block">
+            <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>
               <h2>
@@ -107,7 +102,7 @@ const Article = () => {
                 <br /> популярных курсов по направлению
                 <br /> Java в IBS Training Center.{" "}
               </h2>
-              <div className="article--blocks__block--date">
+              <div className="latest--blocks__block--date">
                 <p1>
                   <LiaClipboardListSolid /> Читать
                 </p1>
@@ -115,10 +110,13 @@ const Article = () => {
               </div>
             </div>
           </div>
+          <center>
+            <Link className="a" to={"/article"}>Показать больше</Link>
+          </center>
         </div>
       </div>
     </div>
   );
 };
 
-export default Article;
+export default Latest;

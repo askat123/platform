@@ -1,0 +1,59 @@
+#insigne {
+    background: #0a1128;
+    padding: 70px 0;
+    .insigne {
+      width: 1170px;
+      height: 197px;
+      border-radius: 10px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img{
+          padding-bottom: 80px;
+      }
+      button{
+          padding: 20px 21px;
+          color: #fff;
+          background:#034078;
+          border-radius: 5px;
+          margin-bottom: 37px;
+          font-weight: 600;
+          border: none;
+          cursor: pointer;
+      }
+      &--text {
+        h2 {
+          color: #000;
+          font-family: Montserrat;
+          font-family: sans-serif;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+          width: 550px;
+  
+        }
+        p {
+          color: #8d8d8d;
+          font-family: Montserrat;
+          font-family: sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          padding: 15px 0;
+        }
+        span {
+          color: #000;
+          font-family: Montserrat;
+          font-family: sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  

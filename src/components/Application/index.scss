@@ -1,0 +1,64 @@
+#application {
+  background: #0a1128;
+  padding: 30px 0;
+  .application {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: sans-serif;
+    &--title {
+      h1 {
+        color: #fff;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 366px;
+        padding: 25px 0;
+      }
+    }
+    &--input {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      input {
+        width: 670px;
+        height: 57px;
+        flex-shrink: 0;
+        background: #18223f;
+        border-radius: 10px;
+        border: none;
+        color: aliceblue;
+        font-size: 20px;
+        margin-bottom: 18px;
+      }
+      span {
+        color: #b5b5b5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      button{
+        padding: 18px 90px;
+        background: #034078;
+        border: none;
+        color: aliceblue;
+        font-size: 15px;
+        border-radius: 10px;
+        font-weight: 600;
+        &:focus{
+          background: #3a6c9a;
+        }        
+      }
+    }
+  }
+}
