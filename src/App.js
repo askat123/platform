@@ -6,6 +6,7 @@ import Home from './components/Home';
 import MySchool from './components/Myschool';
 import AboutUs from './components/Aboutus';
 import OurCours from './components/Ourcours';
+import Frontend from './components/Frontend';
 import Application from './components/Application';
 import Article from './page/Article';
 import WePrep from './page/WePrep';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/myschool' element={ <MySchool/>}/>
         <Route path='/ourcours' element={ <OurCours/>}/>
         <Route path='/aboutus' element={ <AboutUs/>}/>
+        <Route path='/front' element={<Frontend/>}/>
         <Route path='/article' element={ <Article/>}/>
         <Route path='/article/weprep' element={ <WePrep/>}/>
         <Route path='/comment' element={ <AfterSub/>}/>
