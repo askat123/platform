@@ -1,0 +1,49 @@
+#otherart {
+    padding: 38px 0;
+  .otherart {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    &--blocs {
+      width: 341px;
+      height: 230px;
+      border-radius: 10.55px;
+      background: #fff;
+      padding: 20px 0 0 30px;
+      span {
+        color: #898989;
+        font-family: Montserrat , sans-serif;
+        font-size: 18.353px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      p {
+        width: 295px;
+        color: #000;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 27px;
+        padding: 15px 0;
+      }
+      &__more {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        gap: 30px;
+        p {
+          color: #044176;
+          font-family: Montserrat, sans-serif;
+          font-size: 19.496px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

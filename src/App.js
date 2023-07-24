@@ -6,6 +6,11 @@ import Home from './components/Home';
 import MySchool from './components/Myschool';
 import AboutUs from './components/Aboutus';
 import OurCours from './components/Ourcours';
+import Application from './components/Application';
+import Article from './page/Article';
+import WePrep from './page/WePrep';
+import Package from './page/Package';
+import AfterSub from './page/AfterSub';
 
 function App() {
   return (
@@ -16,7 +21,12 @@ function App() {
         <Route path='/myschool' element={ <MySchool/>}/>
         <Route path='/ourcours' element={ <OurCours/>}/>
         <Route path='/aboutus' element={ <AboutUs/>}/>
+        <Route path='/article' element={ <Article/>}/>
+        <Route path='/article/weprep' element={ <WePrep/>}/>
+        <Route path='/comment' element={ <AfterSub/>}/>
+        <Route path='/package' element={ <Package/>}/>
       </Routes>
+      <Application/>
       <Footer/>
     </div>
   );
