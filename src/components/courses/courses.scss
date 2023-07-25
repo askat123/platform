@@ -1,0 +1,74 @@
+#courses{
+  background: #0a1128;
+  padding: 120px 10px;
+
+}
+h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+
+}
+.courses{
+
+  background: #0A1128;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+
+    &__card {
+      background: white;
+      width: 370px;
+      height: 268px;
+      border-radius: 15px;
+      margin: 30px 0;
+
+      &--end {
+        margin:20px 15px 20px 15px ;
+
+        &__hr{
+          width: 90px;
+          border-radius: 12px;
+          border:0.8px solid black
+        }
+        &__icon{
+          padding: 3px 0 0 6px;
+          font-size: 20px;
+
+        }
+        h1 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          height: 42px;
+          color: #000;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 350;
+          line-height: 20px;
+          width:312px;
+          margin: 8px  0;
+          height:140px;
+
+        }
+
+        button {
+          background: #FFFFFF;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          font-size: 16px;
+          border: none;
+
+        }
+
+      }
+
+    }
+
+
+  }
