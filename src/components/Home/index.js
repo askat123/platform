@@ -8,6 +8,8 @@ import img4 from "../../img/img3.png";
 import img5 from "../../img/img4.png";
 import Latest from "../Latest";
 import Subscribe from "../Subscribe";
+import Application from "../Application";
+import QuestionEnd from "../QuestionEnd";
 
 const Home = () => {
   return (
@@ -39,6 +41,8 @@ const Home = () => {
       </div>
       <Latest/>
       <Subscribe/>
+      <QuestionEnd/>
+    <Application/>
     </>
   );
 };

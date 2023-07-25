@@ -7,7 +7,6 @@ import MySchool from './components/Myschool';
 import AboutUs from './components/Aboutus';
 import OurCours from './components/Ourcours';
 import Frontend from './components/Frontend';
-import Application from './components/Application';
 import Article from './page/Article';
 import WePrep from './page/WePrep';
 import Package from './page/Package';
@@ -34,8 +33,7 @@ function App() {
         <Route path='/podrobnee' element={ <Podrobnee/>}/>
         <Route path='/register' element={ <Register/>}/>
       </Routes>
-      <Application/>
-    
+
       <Footer/>
     </div>
   );

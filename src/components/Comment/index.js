@@ -1,55 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.scss";
 import usercom from "../../img/usercom.png";
 
 const Comment = () => {
+  const [commentText, setCommentText] = useState("");
+  const [comments, setComments] = useState([]);
+
+  const handleInputChange = (event) => {
+    setCommentText(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    if (commentText.trim() !== "") {
+      const newComment = {
+        user: "Ваше имя", // Здесь можно заменить на имя пользователя или получать из авторизации
+        timestamp: new Date().toLocaleString(),
+        text: commentText,
+      };
+
+      setComments((prevComments) => [...prevComments, newComment]);
+      setCommentText("");
+    }
+  };
+
   return (
     <div id="comment">
       <div className="container">
         <div className="comment">
           <div className="comment--input">
-            <input type="text" placeholder="Ваш комментарий" />
-            <button>Отправить </button>
+            <input
+              type="text"
+              placeholder="Ваш комментарий"
+              value={commentText}
+              onChange={handleInputChange}
+            />
+            <button onClick={handleSubmit}>Отправить</button>
           </div>
           <div className="comment--text">
-            <div className="comment--text__user">
-              <img src={usercom} alt="" />
-              <div>
-                <h4>
-                  Осмонова Нурай / <span>Около минуты назад</span>
-                </h4>
-                <p>Очень понравились уроки. Все более чем понятно! </p>
-                <button>Ответить</button>
+            {comments.map((comment, index) => (
+              <div className="comment--text__user" key={index}>
+                <img src={usercom} alt="" />
+                <div>
+                  <h4>
+                    {comment.user} / <span>{comment.timestamp}</span>
+                  </h4>
+                  <p>{comment.text}</p>
+                  <button>Ответить</button>
+                </div>
               </div>
-            </div>
-            <div className="comment--text__user">
-              <img src={usercom} alt="" />
-              <div>
-                <h4>
-                  Эгембердиева Кунсулуу / <span>  24.10.2021</span>
-                </h4>
-                <p>
-                  Классный урок, первый раз вижу такое подробное объяснение
-                  всего происходящего
-                </p>
-                <button>Ответить</button>
-              </div>
-            </div>
-            <div className="comment--text__user">
-              <img src={usercom} alt="" />
-              <div>
-                <h4>
-                Таалай Бирдемке / <span>Около минуты назад</span>
-                </h4>
-                <p>
-                  Как мне кажется, в конце видео, необходимо было сказать о том,
-                  что информация - это то(в данном случае число) с помощью чего
-                  можно устранить некую неопределенность(неизвестность) А так
-                  вроде все замечательно.
-                </p>
-                <button>Ответить</button>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

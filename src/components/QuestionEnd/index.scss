@@ -1,0 +1,41 @@
+#accordion {
+  background: #0a1128;
+  p {
+    width: 500px;
+    color: aliceblue;
+  }
+  h3 {
+    color: aliceblue;
+    padding: 20px;
+  }
+  h1{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 35px;
+  }
+  .accordion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &--container {
+      width: 700px;
+      height: 572px;
+      padding-bottom: 0px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+    }
+    .line {
+      width: 630px;
+      height: 1.5px;
+      margin-left: 20px;
+      background: #767676;
+    }
+  }
+}
