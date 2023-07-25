@@ -11,7 +11,7 @@ const Header = () => {
                 <div className='header--logo'>
                 <Link to="/"><img src={logo} alt="" /></Link>
                 <NavLink to={"/myschool"}>О школе</NavLink>
-                <NavLink to={"ourcours"}>Наши курсы</NavLink>
+                <NavLink to={"/courses"}>Наши курсы</NavLink>
                 <NavLink to={"/aboutus"}>О нас</NavLink>
                 </div>
                 <div className='header--sign'>
