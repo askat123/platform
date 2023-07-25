@@ -18,7 +18,7 @@ const Level = () => {
                 <p>Ежемесячно</p>
                 <div className='div--dollar__btn'>
                  <button className='div--dollar__btn--one'>Оформить подписку</button>
-                 <button className='div--dollar__btn--two'>Подробнее</button>
+                 <Link to={"/podrobnee"}> <button className='div--dollar__btn--two'>Подробнее</button></Link>
                 </div>
             </div>
             <div className="div--dollar">
@@ -28,7 +28,7 @@ const Level = () => {
                 <p>Ежегодно</p>
                 <div className='div--dollar__btn'>
                  <button className='div--dollar__btn--one'>Оформить подписку</button>
-                <Link> <button className='div--dollar__btn--two'>Подробнее</button></Link>
+                <Link to={"/podrobnee"}> <button className='div--dollar__btn--two'>Подробнее</button></Link>
                 </div>
             </div>
             <div className="div--dollar">
@@ -38,7 +38,7 @@ const Level = () => {
                 <p>Ежегодно</p>
                 <div className='div--dollar__btn'>
                  <button className='div--dollar__btn--one'>Оформить подписку</button>
-                 <button className='div--dollar__btn--two'>Подробнее</button>
+                 <Link to={"/podrobnee"}> <button className='div--dollar__btn--two'>Подробнее</button></Link>
                 </div>
             </div>
             </div>

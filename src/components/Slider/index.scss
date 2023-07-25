@@ -1,66 +1,77 @@
-#slider{
-    background: #0A1128;
-    padding: 150px 0 ; 
-    h1{
-        color: #FFF;
-font-family: Montserrat, sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
-    }
-    .slider{
+#slider {
+  background: #0a1128;
+  padding: 150px 0;
+  h1 {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    width: 95%;
+    height: 330px;
+    padding: 100px 0 30px 0;
 
-          display: flex;
-            overflow-x: scroll;
-            gap: 20px;
-            width: 80%;
-            height: 350px;
-            padding: 100px 0 30px 0;
-            
-                margin: 0 auto;
-                &::-webkit-scrollbar{
-                    display: none;
-                }
-        &--block{
-        
-            padding: 20px;
-          background: #102146;
-          position: relative;
-          border-radius: 10px;
-          
-           h2{
-            width: 450px;
-            color: #FFF;
-font-family: Montserrat, sans-serif;
-font-size: 29px;
-font-weight: 600;
-padding: 62px 0 15px 100px;
-           }
-    p{
-        color: #FFF;
-text-align: center;
-font-family: Montserrat, sans-serif;
-font-size: 21px;
-font-style: normal;
-font-weight: 500;
-line-height: 22px; 
+    margin: 0 auto;
+    &::-webkit-scrollbar {
+      display: none;
     }
-    h4{
-        color: #FFF;
-text-align: center;
-font-family: Montserrat, sans-serif;
-font-size: 18px;
-font-weight: 600;
-margin: 25px 0 0 290px;
+    &--block {
+      background: #102146;
+      position: relative;
+      border-radius: 10px;
+      padding: 10px 60px;
+
+      h2 {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 62px 0 15px 80px;
+      }
+      p {
+        color: #fff;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        width: 387px;
+      }
+      span {
+        color: #fff;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 40px 0 0 200px;
+        position: absolute;
+        left: 160px;
+        bottom: 30px;
+      }
+      h4{
+        color: #fff;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 40px 0 0 200px;
+        position: absolute;
+        left: 160px;
+        bottom: 25px;
+      }
+      img {
+        position: absolute;
+        top: -35px;
+        left: 190px;
+      }
     }
-            img{
-             width: 100px;
-                position: absolute;
-                top: -50px;
-                left: 210px;
-            }
-        }
-    }
+  }
 }

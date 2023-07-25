@@ -12,6 +12,9 @@ import Article from './page/Article';
 import WePrep from './page/WePrep';
 import Package from './page/Package';
 import AfterSub from './page/AfterSub';
+import Class from './page/Class';
+import Podrobnee from './page/Podrobnee';
+import Register from './page/Register';
 
 function App() {
   return (
@@ -27,8 +30,12 @@ function App() {
         <Route path='/article/weprep' element={ <WePrep/>}/>
         <Route path='/comment' element={ <AfterSub/>}/>
         <Route path='/package' element={ <Package/>}/>
+        <Route path='/class' element={ <Class/>}/>
+        <Route path='/podrobnee' element={ <Podrobnee/>}/>
+        <Route path='/register' element={ <Register/>}/>
       </Routes>
       <Application/>
+    
       <Footer/>
     </div>
   );
