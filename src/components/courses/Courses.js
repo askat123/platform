@@ -8,8 +8,6 @@ const Courses = () => {
                 <p style={{color:'white'}}>Главная / Наши курсы</p>
             <center><h1>Курсы</h1></center>
         <div className={"courses"}>
-
-
                 <div  className="courses__card">
                 <div className="courses__card--end">
                 <h1>Frontend-разработчик</h1>
