@@ -1,0 +1,105 @@
+#podrobnee {
+  background: #0a1128;
+  padding: 0 0 180px 0;
+  .podrobnee {
+    h4 {
+      padding: 150px 0 0 0;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h1 {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      padding: 44px 0 70px 0;
+    }
+    &--kurs {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      &__block {
+        width: 349px;
+        height: 490px;
+        border-radius: 10px;
+        background: #fff;
+        h3 {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 17px;
+          font-weight: 600;
+          padding: 33px 0 15px 41px;
+        }
+        h2 {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 36px;
+          font-weight: 700;
+          padding: 0 0 18px 41px;
+        }
+        &--one {
+          border-radius: 3.273px;
+          border: 2px solid #11416f;
+          background: #fff;
+          padding: 10px 15px;
+          margin: 0 0 26px 41px;
+        }
+        h5 {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          margin: 20px 0 0 35px;
+        }
+        &--two {
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 15px 12px 15px 12px;
+          border-radius: 3.273px;
+          background: #11416f;
+          border: none;
+          margin: 160px 0 40px 86px;
+        }
+        &--three{
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 15px 12px 15px 12px;
+          border-radius: 3.273px;
+          background: #11416f;
+          border: none;
+          margin: 120px 0 40px 86px;
+        }
+        &--four{
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 15px 12px 15px 12px;
+          border-radius: 3.273px;
+          background: #11416f;
+          border: none;
+          margin: 45px 0 40px 86px;
+        }
+      }
+    }
+    p{
+        color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+width: 852px;
+padding: 50px 0 0 180px;
+    }
+  }
+}

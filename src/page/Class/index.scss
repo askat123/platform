@@ -1,0 +1,45 @@
+#class {
+  background: #0a1128;
+  padding: 0 0 180px 0;
+  .class {
+    padding-top: 150px;
+    h4{
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h1{
+        color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+padding: 50px 0 70px 0;
+    }
+    &--block {
+      width: 1030px;
+      height: 200px;
+      border-radius: 10px;
+      background: #fff;
+      margin: 0 0 30px 100px;
+      h2 {
+        color: #043f75;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 54px 0 15px 69px;
+      }
+      p {
+        width: 810px;
+        color: #000;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0 0 62px 69px;
+      }
+    }
+  }
+}
