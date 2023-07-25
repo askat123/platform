@@ -1,81 +1,81 @@
-#frontend{
-    background: #0A1128;
-    padding: 150px 0 ; 
-    .frontend{
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-       &--block{
-        h3{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 61px 0 100px 0;
-        }
-        h1{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding: 0 0 50px 0;
-        }
-        p{
-            color: #FFF;
-            font-family: Montserrat;
-            font-size: 35px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            padding: 0 0 50px 0;
-        }
-        button{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 25px 50px 25px 49px;
-border-radius: 10px;
-background: #044076;
-border: none;
-        }
-       } 
-       &--end{
-        margin: 15% 15% 0 0;
-
-        h3{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 0 0 15PX 0;
-        }
-        h2{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-padding: 0 0 60px 0;
-        }
-        h4{
-            color: #FFF;
-font-family: Montserrat;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 0 0 15px 0;
-        }
-       }
+#frontend {
+  background: #0a1128;
+  padding: 150px 0;
+  .frontend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--block {
+      h3 {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 61px 0 100px 0;
+      }
+      h1 {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 0 50px 0;
+      }
+      p {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 0 50px 0;
+      }
+      button {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 25px 50px 25px 49px;
+        border-radius: 10px;
+        background: #044076;
+        border: none;
+      }
     }
+    &--end {
+      margin: 15% 15% 0 0;
+
+      h3 {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 0 15px 0;
+      }
+      h2 {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 0 0 60px 0;
+      }
+      h4 {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 0 15px 0;
+      }
+    }
+  }
 }

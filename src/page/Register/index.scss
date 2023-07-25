@@ -1,0 +1,30 @@
+#register{
+    background: #0a1128;
+    padding: 0 0 180px 0;
+    .register{
+        h3{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight: 400;
+padding: 200px 0 100px 0;
+        }
+        h1{
+            color: #FFF;
+font-family: Montserrat, sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+        &--block{
+            &__developer{
+                width: 500px;
+height: 631px;
+border-radius: 10px;
+background: #FFF;
+
+            }
+        }
+    }
+}

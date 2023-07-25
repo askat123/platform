@@ -1,0 +1,131 @@
+.accordion {
+    width: 100%;
+    max-width: 770px;
+    margin: 8px auto;
+    background: #0a1128;
+    padding: 0 0 1800px 0;
+  
+  
+  
+  
+    &--Heading{
+      width: auto;
+      background: none;
+      padding: 14px 0;
+  
+  
+  
+      &__container {
+        font-size: 20px;
+        line-height: 24.38px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span {
+          cursor: pointer;
+          font-size: 30px;
+          color: #FFFFFF;
+        }
+      }
+  
+  
+        p {
+          color: #FFFFFF;
+          letter-spacing: 1.2px;
+          font-weight: 100;
+        }
+  
+  
+  
+  
+    }
+  
+  
+    .accordionContext {
+      height: 0;
+      opacity: 0;
+      display: flex;
+      overflow: hidden;
+      transition: all 600ms ease-in-out;
+      border: none;
+      color: #FFFFFF;
+      .pp{
+        padding: 0 20px 0 20px;
+      }
+  
+  
+      p {
+        font-size: 15px;
+        line-height: 1.6;
+        padding-left: 100px;
+  
+      }
+    }
+  
+  }
+  .accordion{
+    display: flex;
+    justify-content:space-between ;
+    background: #02294b;
+    padding: 80px;
+    &--icon{
+      color:cornflowerblue;
+      font-size: 180px;
+      display: flex;
+  
+    }
+    &--right {
+  
+      h1 {
+        color: #FFFFFF;
+        justify-items: center;
+        font-size: 48px;
+  
+      }
+    }
+  
+  
+      &__left {
+        width: auto;
+        h1{
+          font-size: 20px;
+          line-height: 24.38px;
+          font-weight: 100;
+          color: #FFFFFF;
+        }
+        hr{
+  
+        }
+        p{
+          width: 500px;
+  
+        }
+  
+      }
+    .accordion__left--one{
+      font-size: 20px;
+      line-height: 24.38px;
+     justify-content: space-between;
+      margin-bottom: 20px;
+      h1{
+        font-weight: 80;
+      }
+  
+      .accordion__left--one--task{
+        justify-content: space-between;
+        display: flex;
+  
+  
+        span{
+          color: #FFFFFF;
+          font-size: 25px;
+          font-weight: 60;
+  
+        }
+        .icon{
+          font-weight: lighter;
+        }
+  
+      }
+    }
+    }
