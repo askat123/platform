@@ -1,30 +1,112 @@
-#register{
-    background: #0a1128;
-    padding: 0 0 180px 0;
-    .register{
-        h3{
-            color: #FFF;
-font-family: Montserrat, sans-serif;
-font-size: 16px;
-font-weight: 400;
-padding: 200px 0 100px 0;
-        }
-        h1{
-            color: #FFF;
-font-family: Montserrat, sans-serif;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-        }
-        &--block{
-            &__developer{
-                width: 500px;
-height: 631px;
-border-radius: 10px;
-background: #FFF;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-            }
-        }
+#register {
+  background: #0a1128;
+  padding: 0 0 180px 0;
+  .register {
+    h3 {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 200px 0 100px 0;
+      span {
+        color: #a5a5a5;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
+    h1 {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      padding: 0 0 110px 0;
+    }
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__developer {
+        width: 500px;
+        height: 631px;
+        border-radius: 10px;
+        background: #fff;
+        h4 {
+          color: #575757;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          padding: 44px 0 15px 45px;
+        }
+        h2 {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 26px;
+          font-weight: 600;
+          padding: 0 0 15px 45px;
+        }
+        p {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          width: 370px;
+          padding: 0 0 15px 45px;
+        }
+        &--modul {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &__modul1 {
+            h5 {
+              color: #575757;
+              font-family: Montserrat, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              margin: 44px 0 15px 45px;
+            }
+            h6 {
+              color: #000;
+              font-family: Montserrat, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              margin: 0 0 15px 45px;
+            }
+          }
+          &__modul2 {
+            h5 {
+              color: #575757;
+              font-family: Montserrat, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              margin: 20px 171px 15px 0;
+            }
+            h6 {
+              color: #000;
+              font-family: Montserrat, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+        }
+        h1 {
+          color: #575757;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          margin: 44px 46px 51px 45px;
+        }
+        .line {
+          width: 500.001px;
+          height: 1px;
+          background: #000;
+        }
+      }
+    }
+  }
 }

@@ -63,7 +63,7 @@ const Kurs = () => {
               </Link>
             </div>
           </div>
-          <Link to={"/ourcours"}>
+          <Link to={"/courses"}>
             <button>Все курсы</button>
           </Link>
         </div>
