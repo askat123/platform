@@ -46,7 +46,7 @@ const QuestionEnd = () => {
   return (
     <div id="accordion">
       <div className="container">
-        <div className="accordion">
+        <div className="accordionn">
           <div className="accordion--text">
             <h1>Остались <br />вопросы?</h1>
             <img src={task} alt="" />
