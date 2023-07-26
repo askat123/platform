@@ -3,20 +3,23 @@
   padding: 0 0 180px 0;
   .class {
     padding-top: 150px;
-    h4{
-        color: #FFF;
-        font-family: Montserrat, sans-serif;
-        font-size: 16px;
-        font-weight: 400;
+    h4 {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      span {
+        color: #a5a5a5;
+      }
     }
-    h1{
-        color: #FFF;
-font-family: Montserrat, sans-serif;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-text-align: center;
-padding: 50px 0 70px 0;
+    h1 {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      padding: 50px 0 70px 0;
     }
     &--block {
       width: 1030px;

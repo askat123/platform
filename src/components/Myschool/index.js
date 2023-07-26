@@ -5,6 +5,7 @@ import Kurs from "../Kurs";
 import MasterClass from "../MasterClass";
 import Level from "../Level";
 import Slider from "../Slider";
+import Application from "../Application";
 
 const MySchool = () => {
   return (
@@ -13,7 +14,7 @@ const MySchool = () => {
         <div className="container">
           <div className="school">
             <div>
-              <h4>Главная / О школе</h4>
+              <h4><span>Главная /</span> О школе</h4>
               <div className="school--one">
                 <h1>О нашей школе:</h1>
                 <p>
@@ -39,6 +40,7 @@ const MySchool = () => {
       <MasterClass />
       <Level />
       <Slider />
+      <Application/>
     </>
   );
 };

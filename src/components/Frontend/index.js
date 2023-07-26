@@ -13,7 +13,7 @@ const Frontend = () => {
         <div className="container">
           <div className="frontend">
             <div className="frontend--block">
-              <h3>Главная / Наши курсы / Frontend- разработчик</h3>
+              <h3><span>Главная / Наши курсы / </span>Frontend- разработчик</h3>
               <h1>Frontend-разработчик</h1>
               <p>
                 Идея реактивного программирования появилась <br />

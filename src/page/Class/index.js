@@ -8,7 +8,7 @@ const Class = () => {
     <section id="class">
       <div className="container">
         <div className="class">
-            <h4>Главная / Мастер классы</h4>
+            <h4><span>Главная /</span> Мастер классы</h4>
              <h1>Мастер классы</h1>
              <div className="class--block">
                 <h2>Реактивное программирование на Java: как, зачем и стоит ли? </h2>
