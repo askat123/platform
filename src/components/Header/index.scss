@@ -1,14 +1,15 @@
 #header {
     background: rgb(10, 17, 40);
     backdrop-filter: blur(22px);
-    position: fixed;
     padding: 30px 60px;
+    position: sticky;
     top: 0;
+    z-index: 10;
     .header {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      gap: 70px;
+      // gap: 70px;
   
       .active {
         color: #0272CE;
