@@ -60,6 +60,10 @@
       padding: 16px 25px 15px 24px;
       border: none;
       margin: 50px 0;
+      &:hover{
+        background: #fff;
+        color: #043c71;
+      }
     }
   }
 }
