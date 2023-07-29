@@ -32,7 +32,7 @@ const MySchool = () => {
                 </p>
               </div>
             </div>
-            <img src={school} alt="img" />
+            <img src={school} alt="" />
           </div>
         </div>
       </section>

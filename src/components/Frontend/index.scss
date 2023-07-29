@@ -1,6 +1,6 @@
 #frontend {
   background: #0a1128;
-  padding: 150px 0;
+  padding: 61px 0 0 0;
   .frontend {
     display: flex;
     align-items: center;
@@ -47,6 +47,11 @@
         border-radius: 10px;
         background: #044076;
         border: none;
+        &:hover{
+          background: none;
+          border: #044076 2px solid;
+          transform: scale(.2s);
+        }
       }
     }
     &--end {

@@ -20,12 +20,12 @@
       padding: 44px 0 70px 0;
     }
     &--kurs {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       &__block {
         width: 349px;
-        height: 490px;
+        height: 540px;
         border-radius: 10px;
         background: #fff;
         h3 {
@@ -65,9 +65,9 @@
           border-radius: 3.273px;
           background: #11416f;
           border: none;
-          margin: 160px 0 40px 86px;
+          margin: 190px 0 40px 86px;
         }
-        &--three{
+        &--three {
           color: #fff;
           font-family: Montserrat, sans-serif;
           font-size: 14px;
@@ -76,9 +76,9 @@
           border-radius: 3.273px;
           background: #11416f;
           border: none;
-          margin: 120px 0 40px 86px;
+          margin: 150px 0 40px 86px;
         }
-        &--four{
+        &--four {
           color: #fff;
           font-family: Montserrat, sans-serif;
           font-size: 14px;
@@ -91,15 +91,14 @@
         }
       }
     }
-    p{
-        color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 20px;
-font-weight: 500;
-line-height: normal;
-width: 852px;
-padding: 50px 0 0 180px;
+    p {
+      color: #fff;
+      text-align: center;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      width: 860px;
+      padding: 50px 0 0 180px;
     }
   }
 }

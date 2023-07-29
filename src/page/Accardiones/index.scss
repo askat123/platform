@@ -1,20 +1,13 @@
-.accordion {
-    width: 100%;
-    max-width: 770px;
-    margin: 8px auto;
-    background: #0a1128;
-    padding: 0 0 1800px 0;
-  
-  
-  
-  
-    &--Heading{
+#accardion {
+  background: #0a1128;
+  padding: 0 0 85px 0;
+  .accordion {
+    // margin: 0 0 0 300px;
+    &--Heading {
       width: auto;
       background: none;
-      padding: 14px 0;
-  
-  
-  
+      padding: 140px 0;
+
       &__container {
         font-size: 20px;
         line-height: 24.38px;
@@ -24,23 +17,18 @@
         span {
           cursor: pointer;
           font-size: 30px;
-          color: #FFFFFF;
+          color: #ffffff;
+          margin: 0 0 0 70px;
         }
       }
-  
-  
-        p {
-          color: #FFFFFF;
-          letter-spacing: 1.2px;
-          font-weight: 100;
-        }
-  
-  
-  
-  
+
+      p {
+        color: #ffffff;
+        letter-spacing: 1.2px;
+        font-weight: 100;
+      }
     }
-  
-  
+
     .accordionContext {
       height: 0;
       opacity: 0;
@@ -48,84 +36,79 @@
       overflow: hidden;
       transition: all 600ms ease-in-out;
       border: none;
-      color: #FFFFFF;
-      .pp{
+      color: #ffffff;
+      .pp {
         padding: 0 20px 0 20px;
       }
-  
-  
+
       p {
         font-size: 15px;
         line-height: 1.6;
         padding-left: 100px;
-  
       }
     }
-  
   }
-  .accordion{
+  .accordion {
     display: flex;
-    justify-content:space-between ;
-    background: #02294b;
+    justify-content: space-between;
+    // background: #02294b;
     padding: 80px;
-    &--icon{
-      color:cornflowerblue;
+    &--icon {
+      color: cornflowerblue;
       font-size: 180px;
       display: flex;
-  
     }
     &--right {
-  
       h1 {
-        color: #FFFFFF;
-        justify-items: center;
         font-size: 48px;
-  
       }
     }
-  
-  
-      &__left {
-        width: auto;
-        h1{
-          font-size: 20px;
-          line-height: 24.38px;
-          font-weight: 100;
-          color: #FFFFFF;
-        }
-        hr{
-  
-        }
-        p{
-          width: 500px;
-  
-        }
-  
+
+    &__left {
+      h3 {
+        color: #a5a5a5;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 0 30px 0;
       }
-    .accordion__left--one{
-      font-size: 20px;
+      h2 {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        padding: 0 0 65px 0;
+      }
+      h1 {
+        font-size: 20px;
+        line-height: 24.38px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      p {
+        width: 500px;
+        color: #ffffff;
+        margin: 14px 0;
+      }
+    }
+    .accordion__left--one {
+      font-size: 16px;
       line-height: 24.38px;
-     justify-content: space-between;
+      justify-content: space-between;
       margin-bottom: 20px;
-      h1{
-        font-weight: 80;
-      }
-  
-      .accordion__left--one--task{
+
+      .accordion__left--one--task {
         justify-content: space-between;
         display: flex;
-  
-  
-        span{
-          color: #FFFFFF;
-          font-size: 25px;
-          font-weight: 60;
-  
+        margin: 13px 0;
+        span {
+          color: #ffffff;
+          font-size: 30px;
+          font-weight: 700;
+          margin: 0 0 0 100px;
         }
-        .icon{
-          font-weight: lighter;
-        }
-  
+        
       }
     }
-    }
+  }
+}
