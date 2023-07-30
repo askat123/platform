@@ -29,7 +29,6 @@ const Latest = () => {
               </div>
             </div>
                 </Link>
-
             <div className="latest--blocks__block">
               <img src={logo} alt="" />
               <span>Статьи</span>

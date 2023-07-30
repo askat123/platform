@@ -14,6 +14,7 @@ const Article = () => {
           </p>
           <center>
             <h1>Статьи</h1>
+            
           </center>
           <div className="article--blocks">
             <div className="article--blocks__block">

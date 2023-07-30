@@ -114,7 +114,7 @@ const Account = () => {
                 required
               />
               <span>Пароль*</span>
-              <h4 className="icon" onClick={togglePasswordVisibility}>
+              <h4 className="icon" onClick={togglePasswordVisibility} >
                 {showPassword ? <FaRegEyeSlash /> : <FaRegEye />}
               </h4>
             </div>

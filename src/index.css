@@ -18,6 +18,8 @@ code {
 *{
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
 }
 .container{
   margin: 0 auto;
