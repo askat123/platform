@@ -1,0 +1,52 @@
+#spider {
+        h1 {
+            color: #FFF;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 9rem 0 0 0;
+            margin-bottom: 50px;
+          }
+          .spider {
+            display: flex;
+            justify-content: space-between;
+            &--right {
+              &__btn {
+                margin: 30px 0;
+                width: 671px;
+                background: #0A1128;
+                color: #FFFFFF;
+                height: 69.62px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 1px solid #044076;
+                display: flex;align-items: center;
+                h2 {
+                  width: 15px;
+                  height: 44.222px;
+                  padding-left: 50px;
+                  color: #FFF;
+                  font-size: 36px;
+                  font-weight: 700;
+                }
+                h3 {
+                  color: #FFF;
+                  font-size: 16px;
+                  font-weight: 500;
+                  padding-left: 6rem;
+                }
+                &--button {
+                  padding: 25px 75px;
+                  border-radius: 10px;
+                  background: #044076;
+                  color: #FFFFFF;
+                  font-size: 18px;
+                  font-weight: 500;
+                  border: none;
+                }
+              }
+            }
+            &--left {
+                margin: 0 0 0 0;
+            }
+          }
+  }

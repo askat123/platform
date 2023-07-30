@@ -5,7 +5,7 @@
     text-align: center;
     h1 {
       color: #fff;
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 36px;
       font-style: normal;
       font-weight: 700;
@@ -60,6 +60,10 @@
       padding: 16px 25px 15px 24px;
       border: none;
       margin: 50px 0;
+      &:hover{
+        background: #fff;
+        color: #043c71;
+      }
     }
   }
 }

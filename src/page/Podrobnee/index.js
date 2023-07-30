@@ -1,7 +1,8 @@
 import React from "react";
 import "../Podrobnee/index.scss";
 import { AiOutlineCheck } from "react-icons/ai";
-import Accardiones from "../Accardiones";
+import Application from "../../components/Application";
+import QuestionEnd from "../../components/QuestionEnd";
 
 const Podrobnee = () => {
   return (
@@ -69,7 +70,8 @@ const Podrobnee = () => {
         </div>
       </div>
     </section>
-    <Accardiones/>
+    <Application/>
+    <QuestionEnd/>
     </>
   );
 };

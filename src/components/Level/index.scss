@@ -80,16 +80,24 @@
           border: none;
           background: #1f3068;
           margin: 0 0 0 35px;
+          &:hover{
+            border: #1f3068 solid 2px;
+            background: #040b23;
+            transform: scale(.2s);
+          }
         }
         &--two {
           color: #fff;
           padding: 10px 25px;
           font-size: 12px;
           border-radius: 3.273px;
-          border: none;
           background: #040b23;
           border: #1f3068 solid 2px;
           margin: 0 10px 0 0;
+          &:hover{
+            background: #1f3068;
+            transform: scale(.2s);
+          }
         }
       }
     }

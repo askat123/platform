@@ -1,0 +1,117 @@
+#one {
+  .one {
+    &--text{
+        p{
+            color: #FFF;
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 30px 0 40px 0 ;
+        }
+    }
+    &--df {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+      &__div {
+        &--div1 {
+          display: flex;
+          &__a {
+            margin-right: 25px;
+            margin-top: 25px;
+            width: 300px;
+            height: 300px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 2px solid #0272ce;
+            background: linear-gradient(
+              180deg,
+              rgba(0, 84, 160, 0.2) 0%,
+              rgba(0, 11, 48, 0.2) 100%
+            );
+            backdrop-filter: blur(22px);
+            justify-content: center;
+            h1 {
+              color: #fff;
+              font-family: sans-serif;
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            h3 {
+              margin: 20px 0;
+              color: #fff;
+              font-family: sans-serif;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+            }
+            p {
+              width: 250px;
+              color: #fff;
+              text-align: center;
+              font-family: sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+          }
+        }
+      }
+      &__div1 {
+        margin-top: 27px;
+        padding-left: 45px;
+        width: 400px;
+        height: 470px;
+        border-radius: 10px;
+        background: #fff;
+        &--icon {
+          display: flex;
+          align-items: center;
+          margin: 20px 0;
+        }
+
+        h3 {
+          color: #000;
+          font-family: sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          padding-top: 50px;
+        }
+        h1 {
+          margin: 25px 0;
+          color: #000;
+          font-family: sans-serif;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+        }
+        button {
+          width: 330px;
+          height: 70px;
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          border-radius: 10px;
+          background: #044076;
+          border:none;
+          margin-top: 40px;
+        }
+
+        // p {
+        //   color: #000;
+        //   font-family: sans-serif;
+        //   font-size: 16px;
+        //   font-style: normal;
+        //   font-weight: 500;
+        // }
+      }
+    }
+  }
+}

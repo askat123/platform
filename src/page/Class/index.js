@@ -1,6 +1,5 @@
 import React from "react";
 import "../Class/index.scss";
-import Accardiones from "../Accardiones";
 
 const Class = () => {
   return (
