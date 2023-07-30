@@ -7,6 +7,7 @@
       border-radius: 7.359px;
       background: #050c22;
       padding-top: 5px;
+      margin: 30px 0;
       input {
         width: 810.959px;
         height: 136.141px;
@@ -41,8 +42,9 @@
         height: 82px;
         display: flex;
         align-items: flex-start;
-        justify-content: space-around;
+        // justify-content: space-evenly;
         padding: 35px 0;
+        gap: 10px;
         img{
             padding-right: 15px;
         }

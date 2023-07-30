@@ -1,6 +1,7 @@
 #accordion {
   background: #0a1128;
   padding: 50px;
+  padding-bottom: 140px;
   p {
     width: 500px;
     color: aliceblue;
@@ -9,6 +10,7 @@
   h3 {
     color: aliceblue;
     padding: 20px;
+    padding-bottom: 20px;
   }
   h1{
     color: white;
@@ -20,6 +22,7 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-left: 20px;
+
     &--container {
       width: 600px;
       height: 572px;
@@ -40,6 +43,7 @@
       height: 1.5px;
       margin-left: 20px;
       background: #767676;
+      margin: 0 0 20px 0;
     }
   }
 }

@@ -1,14 +1,14 @@
 #header {
     background: rgb(10, 17, 40);
     backdrop-filter: blur(22px);
-    padding: 30px 60px;
+    padding: 30px 0px;
     position: sticky;
     top: 0;
     z-index: 10;
     .header {
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       // gap: 70px;
   
       .active {
@@ -70,6 +70,7 @@
       }
   
       &--podpis {
+        margin: 0 50px 0 0;
         a {
           font-weight: 500;
           font-size: 17px;
@@ -84,7 +85,7 @@
           font-size: 15px;
           line-height: 20px;
           color: #FFFFFF;
-          padding: 13px 40px;
+          padding: 13px 43px;
           margin: 0 0 0 20px;
           cursor: pointer;
           border: none;

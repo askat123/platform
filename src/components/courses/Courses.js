@@ -6,7 +6,7 @@ const Courses = () => {
         <div id="courses">
             <div className="container">
                 <p style={{color:'white'}}>Главная / Наши курсы</p>
-            <center><h1>Курсы</h1></center>
+            <center><h1 style={{padding: "50px 0"}}>Курсы</h1></center>
         <div className={"courses"}>
                 <div  className="courses__card">
                 <div className="courses__card--end">

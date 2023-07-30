@@ -47,7 +47,7 @@ const WePrep = () => {
       <Full/>
       <h1 style={{
         color: "white",
-        padding: "10px 0 10px 70px"
+        padding: "100px 0 10px 70px"
       }}>Комментарии</h1>
       <Insigne/>
       <h1 style={{

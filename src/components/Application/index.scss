@@ -1,6 +1,6 @@
 #application {
   background: #0a1128;
-  padding: 30px 0;
+  padding: 150px 0;
   .application {
     display: flex;
     align-items: flex-start;
@@ -39,6 +39,8 @@
         color: aliceblue;
         font-size: 20px;
         margin-bottom: 18px;
+        outline: none;
+        padding-left: 10px;
       }
       span {
         color: #b5b5b5;

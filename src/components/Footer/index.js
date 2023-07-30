@@ -59,8 +59,11 @@ const Footer = () => {
           <div className="footer--address">
             <h3>Адреса</h3>
             <p>
-              <FiMapPin />
+              <FiMapPin style={{paddingRight: "10px"}}/>
               Турусбекова 109 / 3
+            </p>
+            <p>
+            Идентификационный<br /> код: 1234567890
             </p>
           </div>
         </div>

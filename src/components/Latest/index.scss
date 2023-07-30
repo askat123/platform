@@ -1,8 +1,8 @@
 #latest {
-  font-family: Montserrat;
+  font-family: "Montserrat",sans-serif;
   font-family: sans-serif;
   background: #0a1128;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 
   .latest {
     center{
@@ -26,7 +26,7 @@
       flex-wrap: wrap;
       &__block {
         width: 376px;
-        height: 340px;
+        height: 350px;
         background: #ffffff;
         border-radius: 20px;
         margin: 20px 13px;
@@ -58,12 +58,15 @@
             padding-left: 17px;
             display: flex;
             align-items: center;
+            font-family: Montserat,sans-serif;
+            .ion-icon{
+              font-size: 23px;
+            }
           }
           p2 {
             color: #044176;
             font-size: 15px;
             font-weight: 500;
-
             padding-right: 17px;
           }
         }
