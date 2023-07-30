@@ -1,5 +1,4 @@
 import React, {useRef, useState} from 'react';
-import './inde.scss'
 import me from './../../img/Ellipse 20.png'
 import {IoPersonOutline} from 'react-icons/io5'
 import {LiaWalletSolid} from 'react-icons/lia'
@@ -9,7 +8,7 @@ import {BiBasket} from 'react-icons/bi'
 import {IoLogOutOutline} from 'react-icons/io5'
 import PhoneInput from "react-phone-input-2"
 import 'react-phone-input-2/lib/style.css'
-
+import logo from "../../img/book2.png";
 
 const DetailIndex = () => {
     const [Number, setNumber] = useState('kg')
