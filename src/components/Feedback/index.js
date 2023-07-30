@@ -84,7 +84,7 @@ const Feedback = () => {
               </center>
               <div className="feedback--feedback-start__slider--lol">
                 <center>
-                  <h2>Алина Татьянован</h2>
+                  <h2>Алина Татьянован </h2>
                 </center>
                 <center>
                   <p>

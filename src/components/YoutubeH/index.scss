@@ -1,0 +1,44 @@
+#hero11 {
+  padding: 10px 0 100px 0;
+  background: #0a1128;
+  h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 30px 0 ;
+  }
+  li {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin:  15px 0;
+  }
+    .hero11 {
+      &--hero11-text{
+          margin-bottom: 100px;
+      }
+      h1 {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 30px 0 ;
+      }
+      li {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        margin:  15px 0;
+      }
+    }
+  }
+  

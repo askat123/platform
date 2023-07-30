@@ -1,0 +1,63 @@
+#pages {
+    .pages {
+      padding: 100px 0 150px 0;
+      span {
+        color: #A5A5A5;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      h1 {
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 700;
+        padding: 30px 0;
+      }
+      &--we {
+        display: flex;
+        flex-direction: column;
+        &__left {
+          width: 800.011px;
+          cursor: pointer;
+          height: 60px;
+          overflow: hidden;
+          border-bottom: 2px solid white;
+          transition: .4s;
+          &--title {
+            display: flex;
+            justify-content: space-between;
+  
+            &__accord {
+              margin: 1.4rem 0;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: white;
+  
+              &--btn {
+                font-size: 1.5rem;
+                background: transparent;
+                border-color: transparent;
+                cursor: pointer;
+  
+                &__icon {
+                  color: #FFFFFF;
+                }
+                &__down {
+                  color: white;
+                }
+  
+                &__answer {
+                  font-size: 20px;
+                  line-height: 20px;
+                  color: #FFFFFF;
+                  p{
+                    width: 800px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

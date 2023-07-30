@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -16,6 +16,9 @@ import Class from "./page/Class";
 import Podrobnee from "./page/Podrobnee";
 import Register from "./page/Register";
 import Account from "./components/Account";
+import Masterdt from "./components/Master-dt";
+import Youtube from "./components/Youtube/Youtube";
+import Profil from "./page/Profil";
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
         <Route path="/podrobnee" element={<Podrobnee />} />
         <Route path="/register" element={<Register />} />
         <Route path="/account" element={<Account />} />
+        <Route path="/master-dt" element={<Masterdt/>}/>
+        <Route path="/youtube" element={<Youtube/>}/>
+        <Route path="/профиль" element={<Profil/>}/>
       </Routes>
       <Footer />
     </div>
