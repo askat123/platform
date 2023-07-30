@@ -22,7 +22,7 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                   <p1>
-                    <LiaClipboardListSolid />
+                    <LiaClipboardListSolid className="ion-icon"/>
                     Читать
                   </p1>
                 <p2>01.02.2022</p2>
@@ -40,7 +40,8 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                 <p1>
-                  <LiaClipboardListSolid /> Читать
+                <LiaClipboardListSolid className="ion-icon"/>
+                   Читать
                 </p1>
                 <p2>01.02.2022</p2>
               </div>
@@ -56,7 +57,8 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                 <p1>
-                  <LiaClipboardListSolid /> Читать
+                <LiaClipboardListSolid className="ion-icon"/>
+                  Читать
                 </p1>
                 <p2>01.02.2022</p2>
               </div>
@@ -72,7 +74,8 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                 <p1>
-                  <LiaClipboardListSolid /> Читать
+                <LiaClipboardListSolid className="ion-icon"/>
+                   Читать
                 </p1>
                 <p2>01.02.2022</p2>
               </div>
@@ -88,7 +91,8 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                 <p1>
-                  <LiaClipboardListSolid /> Читать
+                <LiaClipboardListSolid className="ion-icon"/>
+                   Читать
                 </p1>
                 <p2>01.02.2022</p2>
               </div>
@@ -104,13 +108,14 @@ const Latest = () => {
               </h2>
               <div className="latest--blocks__block--date">
                 <p1>
-                  <LiaClipboardListSolid /> Читать
+                <LiaClipboardListSolid className="ion-icon"/>
+                  Читать
                 </p1>
                 <p2>01.02.2022</p2>
               </div>
             </div>
           </div>
-          <center>
+          <center style={{marginRight: "20px"}}>
             <Link className="a" to={"/article"}>Показать больше</Link>
           </center>
         </div>
