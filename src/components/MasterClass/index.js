@@ -8,6 +8,7 @@ const MasterClass = () => {
       <div className="container">
         <div className="master">
           <h1>Мастер-классы</h1>
+          <Link to={'/master-dt'}>
           <div className="master--class">
             <div className="master--class__group">
               <h2>
@@ -21,6 +22,7 @@ const MasterClass = () => {
               </p>
             </div>
           </div>
+          </Link>
           <div className="master--class">
             <div className="master--class__group">
               <h2>

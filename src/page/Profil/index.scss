@@ -1,0 +1,213 @@
+#detail {
+    padding: 10rem 0;
+    .detail {
+  
+      a {
+        color: #A5A5A5;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      span {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      &--project{
+        padding-top: 60px;
+        display:flex;
+        align-items: start;
+        justify-content:start;
+      }
+      &--phone {
+        .flag-dropdown {
+          border: none;
+          .selected-flag {
+            background: #131c3f !important;
+          }
+        }
+      }
+      &--npm{
+        display: flex;
+        align-items: center;
+      }
+      &--card {
+        width: 384px;
+        height: 578px;
+        background: white;
+        border-radius: 10px;
+      }
+      &--img {
+        height: 145px;
+        width: 145px;
+      }
+      &--image {
+        height: 145px;
+        width: 145px;
+        border-radius: 100%;
+      }
+      button {
+        padding: 10px 28px;
+        background: #0272CE;;
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        border-radius: 10px;
+        margin-left: -23px;
+        margin-top: 30px;
+      }
+      &--top {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &--too{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-left: 3rem;
+        padding: 2px 0;
+        span{
+          font-weight: 500;
+          font-size: 18px;
+          color: rgba(0, 0, 0, 1);
+          margin: 0 0 0 20px;
+          padding: 10px 0;
+        }
+      }
+      &--line{
+        width: 384px;
+        height: 0.5px;
+        background: #9A9A9A;
+      }
+      &--input{
+        margin-left: 55px;
+        margin-top: -9.5rem;
+        h2{
+          padding: 1.5ex 0;
+          color: rgba(255, 255, 255, 1);
+          font-weight: 700;
+          font-size: 45px;
+          Line-height:40.88px
+        }
+        input{
+          width: 360px;
+          height: 45px;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          border: 2px solid rgba(17, 41, 89, 0.4);
+          font-size: 19px;
+          font-weight: 500;
+          color: white;
+        }
+        h4{
+          color: rgba(164, 164, 164, 1);
+          font-size: 16px;
+          font-weight: 600;
+          padding: 10px 0;
+          margin-top:6px;
+        }
+      }
+      &--Floor{
+        background: rgba(27, 41, 89, 0.4);
+        width: 143px;
+        height: 45px;
+        border: 2px solid rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        margin: 0 69px 5px 0;
+        h5{
+          color: white;
+          font-weight: 400;
+          font-size: 16px;
+          margin: 0 0 0 12px;
+        }
+      }
+      &--phome{
+        .selected-flag {
+          background-color: #0A1128 !important;
+        }
+      }
+      &--car{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+      }
+      &--select{
+        width: 75px;
+        height: 45px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: 2px solid rgba(17, 41, 89, 0.4);
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+      }
+      &--commit{
+        width: 120px;
+        height: 44px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: 2px solid rgba(17, 41, 89, 0.4);
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+      }
+      &--hel{
+        margin: 0 10px 0 10px;
+        width: 130px;
+        height: 44px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: 2px solid rgba(17, 41, 89, 0.4);
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+      }
+      &--current{
+        margin-top: -2.6rem;
+        h4{
+          color: rgba(164, 164, 164, 1);
+          font-size: 16px;
+          font-weight: 600;
+          padding: 10px 0;
+          margin-top:6px;     }
+      }
+      &--counter{
+        width: 345px;
+        height: 44px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: 2px solid rgba(17, 41, 89, 0.4);
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        padding: 0 10px;
+      }
+      &--city{
+        padding: 0 10px;
+        width: 345px;
+        height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+    }
+    &--student{
+      padding: 0 10px;
+      width: 345px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+    }
+  }
+}

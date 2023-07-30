@@ -1,0 +1,105 @@
+#masterH {
+  .masterH {
+    
+    &--p{
+        color: #A5A5A5;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 50px;
+
+    }
+    &--text {
+      display: flex;
+      justify-content: space-between;
+      &__masterH-text {
+        h1 {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 700;
+        }
+        p {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          margin-top: 30px;
+        }
+      }
+      &__masterH-text1 {
+        h4 {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          margin-top: 80px;
+          margin-bottom: 30px;
+        }
+        li {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          margin: 20px 0;
+        }
+      }
+      &__masterH-text3 {
+        margin-top: 70px;
+        &--btn {
+          width: 330px;
+          height: 70px;
+          align-items: flex-start;
+          border-radius: 10px;
+          background: #044076;
+          box-shadow: 3px 2px 13px 0px rgba(0, 0, 0, 0.07),
+            -2px -2px 8px 0px rgba(0, 0, 0, 0.2);
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          border: none;
+          margin-right: 20px;
+          
+        }
+        &--btn1 {
+          cursor: pointer;
+          width: 330px;
+          height: 70px;
+          border-radius: 10px;
+          border: 2px solid #044076;
+          background: none;
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+        }
+      }
+      &__masterH-p {
+        margin: 72px 200px 0 0;
+        p {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          margin-bottom: 5px;
+        }
+        h5 {
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
