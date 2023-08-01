@@ -8,23 +8,32 @@ const Application = () => {
   const [foun, setFoun] = useState("");
   const [emailDirty, setEmailDirty] = useState("");
   const [emailError, setemailError] = useState("Поле не может быть пустым!");
-  const TOKEN = '6420892676:AAHTcZ4Z3chtBHdCsM2yuoS-1B7ygyx-WIY'
-  const CHAT_ID = '-1001928519999'
+  const TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
+  const CHAT_ID = 'YOUR_CHAT_ID';
   const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
   const res = (e) => {
-    setEmail('')
-    setFoun('')
-    setName('')
-    e.preventDefault()
+    e.preventDefault();
+
+    if (!name || !foun || !email) {
+      alert("Пожалуйста, заполните все обязательные поля!");
+      return;
+    }
+
     let message = `<b>Заявка сайта</b>\n`;
     message += `<b>Имя отправителя:</b> ${name}\n`;
-    message += `<b>номер:</b> ${foun}\n`;
+    message += `<b>Номер:</b> ${foun}\n`;
     message += `<b>Почта:</b> ${email}\n`;
+
     axios.post(URL_API, {
       chat_id: CHAT_ID,
       parse_mode: 'html',
       text: message,
-    }).then(res => console.log('ok',res.data)).catch(err => alert('no', err))
+    }).then(res => console.log('ok',res.data)).catch(err => alert('no', err));
+
+    setEmail('');
+    setFoun('');
+    setName('');
   }
 
   const blurHandler = (e) => {
@@ -32,18 +41,22 @@ const Application = () => {
       case "email":
         setEmailDirty(true);
         break;
+      default:
+        break;
     }
   };
+
   const emailHandler = (el) => {
     setEmail(el.target.value);
     var re = /\S+@\S+\.\S+/;
 
     if (!re.test(el.target.value)) {
-      setemailError("Некорректный email  !!!");
+      setemailError("Некорректный email!!!");
     } else {
       setemailError("");
     }
   };
+  
 
   return (
     <div id="application">
@@ -52,7 +65,7 @@ const Application = () => {
           <div className="application--title">
             <h1>Оставить заявку</h1>
             <p>
-              Заполните краткую форму с ключевым вопросами, и мы подготовимся к
+              Заполните краткую форму с ключевыми вопросами, и мы подготовимся к
               разговору с вами{" "}
             </p>
           </div>
@@ -65,7 +78,7 @@ const Application = () => {
                 name="fio"
                 type="text"
               />
-              <span>Номер телефон*</span>
+              <span>Номер телефона*</span>
               <input
                 value={foun}
                 onChange={(e) => setFoun(e.target.value)}
@@ -84,7 +97,7 @@ const Application = () => {
                 name="email"
                 type="email"
               />
-              <button type='submit'>Отправить</button>
+              <button type='submit' >Отправить</button>
             </div>
           </form>
         </div>

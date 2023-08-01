@@ -27,7 +27,7 @@ const Home = () => {
               </p>
             </div>
             <div className="hero--img">
-              <img src={img} alt="" />
+              <img src={img} alt="" className="luch"/>
               <div className="hero--img__img1">
                 <img src={img1} alt="" className="hero--img__img1--a" />
                 <img src={img2} alt="" className="hero--img__img1--b" />

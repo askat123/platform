@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.scss";
 import usercom from "../../img/usercom.png";
 
 const Comment = () => {
   const [commentText, setCommentText] = useState("");
-  const [comments, setComments] = useState([]);
+  const [comments, setComments] = useState(() => {
+    const storedComments = localStorage.getItem("comments");
+    return storedComments ? JSON.parse(storedComments) : [];
+  });
 
   const handleInputChange = (event) => {
     setCommentText(event.target.value);
@@ -13,7 +16,7 @@ const Comment = () => {
   const handleSubmit = () => {
     if (commentText.trim() !== "") {
       const newComment = {
-        user: "Ваше имя", // Здесь можно заменить на имя пользователя или получать из авторизации
+        user: "Ваше имя",
         timestamp: new Date().toLocaleString(),
         text: commentText,
       };
@@ -22,6 +25,10 @@ const Comment = () => {
       setCommentText("");
     }
   };
+
+  useEffect(() => {
+    localStorage.setItem("comments", JSON.stringify(comments));
+  }, [comments]);
 
   return (
     <div id="comment">

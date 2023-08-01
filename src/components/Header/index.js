@@ -61,7 +61,7 @@ useEffect(()=>{
                     </div>
                     <div className="header--podpis">
                         <NavLink to={'/account'}>Войти</NavLink>
-                        <NavLink to={'/подписаться '}>
+                        <NavLink to={'/package '}>
                             <button>Подписаться</button>
                         </NavLink>
                     </div>
@@ -88,7 +88,7 @@ useEffect(()=>{
                         <div className="burger--menu__podpisAll">
                             <div className="burger--menu__podpisAll--podpis">
                                 <NavLink to={'/войти'}>Войти</NavLink>
-                                <NavLink to={'/подписаться '}>
+                                <NavLink to={'/package'}>
                                     <button>Подписаться</button>
                                 </NavLink>
                             </div>
