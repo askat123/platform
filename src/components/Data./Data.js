@@ -12,9 +12,6 @@ import 'react-phone-input-2/lib/style.css'
 
 
 
-
-
-
 const DetailIndex = () => {
     const [Number, setNumber] = useState('kg')
     const inputRef = useRef(null)
@@ -32,7 +29,6 @@ const DetailIndex = () => {
 
     return (
         <div id='detail'>
-            <div className='container'>
                 <div style={{marginTop:'50px'}} className='detail'>
                     <div className='detail--project'>
                         {/* <div className='detail--card'>
@@ -79,7 +75,7 @@ const DetailIndex = () => {
                             <div className='detail--input'>
                                 <h2>Личные данные</h2>
                                 <h4>ФИО</h4>
-                                <input style={{height: '39px' , width:'355px'}} name='name' type="name"/>
+                                <input style={{height: '39px' , width:'351px'}} name='name' type="name"/>
                                 <h4>Номер телефон</h4>
                                 <div  className='detail--phone'>
                                     <PhoneInput
@@ -98,7 +94,6 @@ const DetailIndex = () => {
                                                 display: 'flex',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                marginTop: '8px'
                                             }}>
                                                 <input  onClick={() => setCheckbox(false)} checked={!checkbox} name='checkbox' type="checkbox"
                                                        style={{width: '20px', height: '20px'}}/>
@@ -110,7 +105,6 @@ const DetailIndex = () => {
                                                 display: 'flex',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                marginTop: '8px'
                                             }}>
                                                 <input onClick={() => setCheckbox(true)} checked={checkbox} name='checkbox' type="checkbox"
                                                        style={{width: '20px', height: '20px'}}/>
@@ -225,7 +219,6 @@ const DetailIndex = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

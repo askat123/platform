@@ -1,75 +1,40 @@
 #detail {
-    margin-right: 40px;
-    padding: 5rem 0;
-    .detail {
-      &--project {
-        display: flex;
-        align-items: center;
-        justify-content: start;
+  width: 930px;
+  padding: 5rem 0;
+  margin-bottom: 150px;
+  .detail {
+    
+    width: 925px;
+    &--project {
+      width: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    &--npm {
+      display: flex;
+      align-items: center;
+    }
+
+    &--line {
+      width: 384px;
+      height: 2px;
+      color: black;
+      background: rgba(154, 154, 154, 1);
+    }
+    &--input {
+      margin-left: 55px;
+      margin-top: -8.5rem;
+      h2 {
+        padding: 0.5ex 0;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 16.88px;
+        margin-bottom: 50px;
       }
-      &--npm {
-        display: flex;
-        align-items: center;
-      }
-  
-      &--line {
-        width: 384px;
-        height: 2px;
-        color: black;
-        background: rgba(154, 154, 154, 1);
-      }
-      &--input {
-        margin-left: 55px;
-        margin-top: -8.5rem;
-        h2 {
-          padding: 0.5ex 0;
-          color: rgb(255, 255, 255);
-          font-weight: 700;
-          font-size: 45px;
-          line-height: 16.88px;
-        }
-        input {
-          width: 360px;
-          height: 45px;
-          background: rgba(27, 41, 89, 0.4);
-          border-radius: 10px;
-          border: 2px solid rgba(17, 41, 89, 0.4);
-          font-size: 19px;
-          font-weight: 500;
-          color: white;
-        }
-        h4 {
-          color: rgba(164, 164, 164, 1);
-          font-size: 16px;
-          font-weight: 600;
-        }
-      }
-      &--Floor {
-        background: rgba(27, 41, 89, 0.4);
-        width: 164px;
-        height: 45px;
-        border: 2px solid rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        margin: 0 13px 5px 0;
-        h5 {
-          color: white;
-          font-weight: 400;
-          font-size: 16px;
-          margin: 0 0 0 12px;
-        }
-      }
-      &--phome {
-        .selected-flag {
-          background-color: #0a1128 !important;
-        }
-      }
-      &--car {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-      }
-      &--select {
-        width: 75px;
+      input {
+        width: 351px;
         height: 45px;
         background: rgba(27, 41, 89, 0.4);
         border-radius: 10px;
@@ -77,75 +42,119 @@
         font-size: 19px;
         font-weight: 500;
         color: white;
-        text-align: center;
       }
-      &--commit {
-        width: 120px;
-        height: 44px;
-        background: rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        border: 2px solid rgba(17, 41, 89, 0.4);
-        font-size: 19px;
-        font-weight: 500;
-        color: white;
-        text-align: center;
-      }
-      &--hel {
-        margin: 0 10px 0 10px;
-        width: 130px;
-        height: 44px;
-        background: rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        border: 2px solid rgba(17, 41, 89, 0.4);
-        font-size: 19px;
-        font-weight: 500;
-        color: white;
-        text-align: center;
-      }
-      &--current {
-        margin-top: -2.6rem;
-        margin-left: 30px;
-        h4 {
-          color: rgba(164, 164, 164, 1);
-          font-size: 16px;
-          font-weight: 600;
-          padding: 10px 0;
-          margin-top: 6px;
-          margin-bottom: 15px;
-        }
-      }
-      &--counter {
-        width: 345px;
-        height: 44px;
-        background: rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        border: 2px solid rgba(17, 41, 89, 0.4);
-        font-size: 19px;
-        font-weight: 500;
-        color: white;
-        padding: 0 10px;
-      }
-      &--city {
-        padding: 0 10px;
-        width: 345px;
-        height: 44px;
-        background: rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        border: 2px solid rgba(17, 41, 89, 0.4);
-        font-size: 19px;
-        font-weight: 500;
-        color: white;
-      }
-      &--student {
-        padding: 0 10px;
-        width: 345px;
-        height: 44px;
-        background: rgba(27, 41, 89, 0.4);
-        border-radius: 10px;
-        border: 2px solid rgba(17, 41, 89, 0.4);
-        font-size: 19px;
-        font-weight: 500;
-        color: white;
+      h4 {
+        color: rgba(164, 164, 164, 1);
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 10px;
       }
     }
+    &--Floor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(27, 41, 89, 0.4);
+      width: 164px;
+      height: 45px;
+      border: 2px solid rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      margin: 0 13px 5px 0;
+      h5 {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0 0 0 12px;
+      }
+    }
+    &--phome {
+      .selected-flag {
+        background-color: #0a1128 !important;
+      }
+    }
+    &--car {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    &--select {
+      width: 75px;
+      height: 45px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+    }
+    &--commit {
+      width: 120px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+    }
+    &--hel {
+      margin: 0 10px 0 10px;
+      width: 130px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+    }
+    &--current {
+      margin-top: -5.1rem;
+      margin-left: 30px;
+      h4 {
+        color: rgba(164, 164, 164, 1);
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+    }
+    &--counter {
+      width: 345px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+      padding: 0 10px;
+    }
+    &--city {
+      padding: 0 10px;
+      width: 345px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+    }
+    &--student {
+      padding: 0 10px;
+      width: 345px;
+      height: 44px;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      border: 2px solid rgba(17, 41, 89, 0.4);
+      font-size: 19px;
+      font-weight: 500;
+      color: white;
+    }
   }
+}
