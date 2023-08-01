@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     // background: #02294b;
-    padding: 80px;
+    padding: 80px 30px 0 0;
     &--icon {
       color: cornflowerblue;
       font-size: 180px;
@@ -96,16 +96,20 @@
       line-height: 24.38px;
       justify-content: space-between;
       margin-bottom: 20px;
+      border-bottom: 2px solid white;
 
       .accordion__left--one--task {
         justify-content: space-between;
         display: flex;
         margin: 13px 0;
+        width: 800px;
+        color: #fff;
         span {
           color: #ffffff;
           font-size: 30px;
           font-weight: 700;
           margin: 0 0 0 100px;
+         
         }
         
       }

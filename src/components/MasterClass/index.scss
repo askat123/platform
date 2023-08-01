@@ -1,10 +1,10 @@
 #master {
   background: #0a1128;
-  padding: 0 0 180px 0;
-  .master {
-    text-align: center;
+  padding: 0 0 100px 0;
+  .master { 
     h1 {
       color: #fff;
+      text-align: center;
       font-family: 'Montserrat', sans-serif;
       font-size: 36px;
       font-style: normal;
@@ -15,8 +15,8 @@
     &--class {
       display: flex;
       align-items: center;
-      justify-content: center;
-      margin: 50px 0 0 100px;
+      justify-content: start;
+      margin: 50px 0 0 70px;
       border-radius: 10px;
       background: #fff;
       box-shadow: 9px 9px 9px 0px rgba(10, 15, 33, 0.45),
@@ -26,6 +26,7 @@
       background: #fff;
       width: 1030px;
       height: 200px;
+      padding: 0 0 0 80px;
       &__group {
         h2 {
           color: #043f75;
@@ -43,7 +44,7 @@
           font-style: normal;
           font-weight: 400;
           line-height: normal;
-          padding: 20px 0 54px 69px;
+          padding: 20px 0 54px 0;
         }
       }
     }
@@ -59,7 +60,7 @@
       background: #043c71;
       padding: 16px 25px 15px 24px;
       border: none;
-      margin: 50px 0;
+      margin: 50px 0 0 500px;
       &:hover{
         background: #fff;
         color: #043c71;

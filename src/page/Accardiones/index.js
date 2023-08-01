@@ -40,7 +40,7 @@ const Accardiones = () => {
                   <hr />
                   <div
                     style={{
-                      height: value ? "109px" : "0",
+                      height: value ? "135px" : "0",
                       overflow: "hidden",
                     }}>
                     <p>
@@ -79,7 +79,7 @@ const Accardiones = () => {
                   <hr />
                   <div
                     style={{
-                      height: value1 ? "60px" : "0",
+                      height: value1 ? "90px" : "0",
                       overflow: "hidden",
                     }}
                   >
@@ -117,7 +117,7 @@ const Accardiones = () => {
                   <hr />
                   <div
                     style={{
-                      height: value2 ? "60px" : "0",
+                      height: value2 ? "90px" : "0",
                       overflow: "hidden",
                     }}
                   >
@@ -130,7 +130,7 @@ const Accardiones = () => {
                 </div>
               </div>
             </div>
-            <div className="accordion__left--one"></div>
+            {/* <div className="accordion__left--one"></div> */}
           </div>
         </div>
       </div>
