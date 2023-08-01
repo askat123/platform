@@ -1,0 +1,98 @@
+#follow {
+  margin-left: 40px;
+  width: 900px;
+  margin-bottom: 100px;
+  h1 {
+    font-size: 40px;
+  }
+  .follow {
+    margin-bottom: -40px;
+    &--follow-text {
+      margin-top: -1px;
+      margin-bottom: 180px;
+      &__follow-div {
+        margin-top: 40px;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-family: sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          margin: 30px 0;
+        }
+      }
+    }
+    &--follow-text1 {
+      &__follow-df {
+        display: flex;
+        &--div1 {
+            margin-right: 100px;
+          width: 349px;
+          height: 500px;
+          flex-shrink: 0;
+          border-radius: 10px;
+          background: #fff;
+          h4{
+            padding: 30px 0 0 30px;
+            color: #000;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+          }
+          h1{
+            padding-left: 30px;
+            color: #000;
+font-family: sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+margin: 20px 0 10px 0 ;
+          }
+          &__btn{
+            width: 112px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 3.273px;
+border: 1px solid #11416F;
+backdrop-filter: blur(4.909090518951416px);
+color: #000;
+font-family: sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+
+          }
+          p{
+            margin: 20px 0 ;
+            color: #000;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+          }
+          center{
+            button{
+                
+                width: 178px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 3.273px;
+background: linear-gradient(133deg, #043C6F 0%, #154574 100%);
+backdrop-filter: blur(4.909090518951416px);
+color: #FFF;
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

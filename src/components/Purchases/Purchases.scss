@@ -1,0 +1,48 @@
+#purchases{
+    .purchases{
+        width: 815px;
+        margin-bottom: 400px;
+        h1{
+            color: #FFF;
+font-family: sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+margin-bottom:30px ;
+
+        }
+        &--purchases-div{ 
+            margin-bottom: 35px;
+            height: 40px;
+            padding-right: 20px;  
+            width: 450px;
+            border-bottom: 2px solid #A4A4A4;;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                color: #A4A4A4;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+            }
+        }
+        &--purchases-div1{
+            margin-top: 15px;
+            height: 40px;
+            padding-right: 20px;  
+            width: 450px;
+            border-bottom: 2px solid #A4A4A4;;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #FFF;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+        }
+    }
+}
