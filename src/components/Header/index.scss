@@ -203,3 +203,20 @@
     }
   }
 }
+
+
+@media (max-width: 800px){
+  #header .header--voitiAll{
+    display: none !important;
+ 
+  }
+  #header .header--podpis{
+    display: none !important;
+  }
+  #header .header--logo__menu{
+    display: none !important;
+  }
+  #header .spans{
+    display: block;
+  }
+}
