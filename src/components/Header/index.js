@@ -83,11 +83,11 @@ useEffect(()=>{
                 <div className="burger">
                     <div className="burger--menu">
                         <NavLink to={'/myschool'}>О школе</NavLink>
-                        <NavLink to={'/ourcours'}>Наши курсы</NavLink>
+                        <NavLink to={'/courses'}>Наши курсы</NavLink>
                         <NavLink to={'/aboutus'}>О нас</NavLink>
                         <div className="burger--menu__podpisAll">
                             <div className="burger--menu__podpisAll--podpis">
-                                <NavLink to={'/войти'}>Войти</NavLink>
+                                <NavLink to={'/account'}>Войти</NavLink>
                                 <NavLink to={'/package'}>
                                     <button>Подписаться</button>
                                 </NavLink>

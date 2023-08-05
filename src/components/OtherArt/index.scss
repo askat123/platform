@@ -47,3 +47,22 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 410px) {
+  #otherart .otherart--blocs {
+    width: 90%;
+    height: 300px;
+}
+#otherart .otherart--blocs p {
+  width: 70%;
+  font-size: 17px;
+}
+}
