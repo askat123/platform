@@ -80,10 +80,10 @@
           border: none;
           background: #1f3068;
           margin: 0 0 0 35px;
-          &:hover{
+          &:hover {
             border: #1f3068 solid 2px;
             background: #040b23;
-            transform: scale(.2s);
+            transform: scale(0.2s);
           }
         }
         &--two {
@@ -94,9 +94,226 @@
           background: #040b23;
           border: #1f3068 solid 2px;
           margin: 0 10px 0 0;
-          &:hover{
+          &:hover {
             background: #1f3068;
-            transform: scale(.2s);
+            transform: scale(0.2s);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 856px) {
+  #level {
+    .container {
+      .level {
+        h1 {
+          font-size: 27px;
+          padding: 0 0 30px 0;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .div {
+        &--dollar {
+          width: 250px;
+          height: 298px;
+          h3 {
+            font-size: 11px;
+            padding: 40px 0 6px 25px;
+          }
+          p {
+            font-size: 11px;
+            padding: 15px 0 27px 25px;
+          }
+          h1 {
+            font-size: 30px;
+            padding: 0 0 8px 25px;
+          }
+          &__btn {
+            &--one {
+              font-size: 6px;
+              margin: 0 0 0 15px;
+            }
+            &--two {
+              font-size: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #level {
+    padding: 0 0 0 0;
+    .container {
+      .level {
+        h1 {
+          font-size: 27px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .div {
+        &--dollar {
+          width: 211px;
+          height: 311px;
+          h3 {
+            font-size: 11px;
+            padding: 30px 0 10px 25px;
+          }
+          p {
+            font-size: 9px;
+            padding: 15px 0 35px 25px;
+          }
+          h1 {
+            font-size: 30px;
+            padding: 0px 0 23px 20px;
+          }
+          &__btn {
+            &--one {
+              font-size: 4px;
+              margin: 0 0 0 15px;
+            }
+            &--two {
+              font-size: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 678px) {
+  #level {
+    .container {
+      .level {
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 10px;
+          padding: 0 0 37px 0;
+        }
+      }
+      .div {
+        &--dollar {
+          width: 188px;
+          height: 243px;
+          h3 {
+            font-size: 9px;
+            padding: 30px 0 4px 25px;
+          }
+          p {
+            font-size: 8px;
+            padding: 15px 0 23px 25px;
+          }
+          h1 {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #level {
+    .container {
+      .level {
+      }
+      .div {
+        flex-wrap: wrap;
+        &--dollar {
+          width: 230px;
+          height: 230px;
+          margin: 13px 130px;
+          h3 {
+            font-size: 10px;
+          }
+          p {
+            font-size: 9px;
+          }
+          h1 {
+            font-size: 25px;
+            padding: 0px 0 0px 25px;
+          }
+          &__btn {
+            &--one {
+              font-size: 5px;
+              padding: 8px 11px;
+            }
+            &--two {
+              font-size: 5px;
+              padding: 8px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #level {
+    .container {
+      .level {
+        p {
+          width: 366px;
+        }
+      }
+      .div {
+        &--dollar {
+          width: 230px;
+          height: 230px;
+          margin: 7px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #level {
+    .container {
+      .level {
+        h1 {
+          padding: 0 0 17px 0;
+        }
+        p {
+          width: 227px;
+          font-size: 12px;
+          padding: 0 0px 37px 13px;
+        }
+      }
+      .div {
+        &--dollar {
+          width: 179px;
+          height: 230px;
+          margin: 7px 44px;
+          text-align: center;
+          h3 {
+            padding: 23px 0 13px 13px;
+          }
+          p {
+            padding: 4px 0 22px 11px;
+          }
+          &__btn {
+            flex-wrap: wrap;
+            &--one {
+              font-size: 7px;
+            }
+            &--two {
+              font-size: 7px;
+              padding: 8px 24px;
+              margin: 10px 0 0 14px;
+            }
           }
         }
       }

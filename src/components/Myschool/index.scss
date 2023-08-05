@@ -5,7 +5,6 @@
   .school {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     h4 {
       color: white;
@@ -15,8 +14,8 @@
       font-weight: 400;
       line-height: normal;
       padding: 0 0 92px 0;
-      span{
-        color: #A5A5A5;
+      span {
+        color: #a5a5a5;
       }
     }
     &--one {
@@ -65,6 +64,223 @@
       height: 470px;
       justify-content: center;
       align-items: center;
+      padding: 0 0 0 110px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #school {
+    .container {
+      .school {
+        .h4 {
+          font-size: 13px;
+          padding: 0 0 92px 29px;
+          &--one {
+            h1 {
+              font-size: 30px;
+              padding: 0 0 15px 25px;
+            }
+            p {
+              font-size: 16px;
+              padding: 0 0 50px 25px;
+            }
+          }
+          &--two {
+            h1 {
+              font-size: 30px;
+              padding: 0 0 15px 25px;
+            }
+            p {
+              font-size: 16px;
+              padding: 0 0 50px 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 856px) {
+  #school {
+    .container {
+      .school {
+        h4 {
+          font-size: 13px;
+        }
+        &--one {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+        &--two {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 10px;
+            padding: 0 0 30px 0;
+          }
+        }
+        img {
+          width: 356px;
+          height: 301px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #school {
+    .container {
+      .school {
+        h1 {
+          font-size: 13px;
+        }
+        flex-wrap: wrap;
+        img {
+          width: 305px;
+          height: 324px;
+          padding: 40px 0 0 26px;
+        }
+        &--one {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 12px;
+            padding: 0 0 35px 0;
+          }
+        }
+        &--two {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 678px) {
+  #school {
+    .container {
+      .school {
+        h4 {
+          font-size: 8px;
+          padding: 0 0 55px 0;
+        }
+        &--one {
+          h1 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+        &--two {
+          h1 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+        img {
+          width: 253px;
+          height: 253px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #school{
+    .container{
+      .school{
+        h4{
+          display: none;
+        }
+        &--one{
+          width: 260px;
+
+          h1{
+            font-size: 20px;
+            padding: 0 0 15px 75px;
+          }
+          p{
+            font-size: 12px;
+            padding: 0 0 35px 75px;
+          }
+        }
+        &--two{
+          h1{
+            font-size: 20px;
+            padding: 0 0 15px 75px;
+          }
+          p{
+            font-size: 12px;
+            padding: 0 0 35px 75px;
+          }
+        }
+        img{
+          padding: 40px 0 0 100px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #school{
+    .container{
+      .school{
+        &--one{
+        h1{
+          padding: 0 0 15px 0;
+        }
+        p{
+          padding: 0 0 32px 0px;
+        }
+        }
+        &--two{
+          h1{
+            padding: 0 0 15px 0px;
+          }
+          p{
+            font-size: 9px;
+            padding: 0 0 35px 0px;
+          }
+        }
+        img{
+          padding: 0px 0 0 0px;
+          width: 232px;
+          height: 222px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #school{
+    .container{
+      .school{
+        &--one{
+          p{
+            font-size: 9px;
+          }
+        }
+      }
     }
   }
 }

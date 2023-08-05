@@ -54,3 +54,29 @@
     }
   }
 }
+
+@media (max-width: 850px) {
+  #prosess{
+    .container{
+      .prosess{
+        h1{
+          padding: 14px 0 27px 0px;
+          font-size: 30px;
+        }
+        &--block{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 20px;
+          &__one{
+            p{
+              font-size: 13px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

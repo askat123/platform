@@ -5,7 +5,7 @@
     text-align: center;
     h1 {
       color: #fff;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 36px;
       font-style: normal;
       font-weight: 700;
@@ -60,9 +60,163 @@
       padding: 16px 25px 15px 24px;
       border: none;
       margin: 50px 0;
-      &:hover{
+      &:hover {
         background: #fff;
         color: #043c71;
+      }
+    }
+  }
+}
+@media (max-width: 856px) {
+  #master {
+    padding: 0 0 0 0;
+    .container {
+      .master {
+        &--class {
+          width: 747px;
+          height: 165px;
+          margin: 35px 0 0 9px;
+          &__group {
+            h2 {
+              font-size: 16px;
+            }
+            p {
+              font-size: 12px;
+              padding: 20px 0 54px 0;
+            }
+          }
+        }
+        button {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #master {
+    .container {
+      .master {
+        h1 {
+          font-size: 26px;
+        }
+        &--class {
+          width: 674px;
+          height: 160px;
+          margin: 35px 0 0 9px;
+          &__group {
+            h2 {
+              font-size: 12px;
+              padding: 54px 154px 0 0;
+            }
+            p {
+              font-size: 10px;
+              padding: 19px 21px 54px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 678px) {
+  #master {
+    .container {
+      .master {
+        h1 {
+          font-size: 20px;
+          padding: 0 45px 0 0;
+        }
+        &--class {
+          width: 551px;
+          height: 110px;
+          margin: 35px 0 0 32px;
+          h2 {
+            font-size: 10px;
+          }
+          p {
+            font-size: 8px;
+            padding: 19px 63px 53px 0;
+          }
+        }
+        button {
+          font-size: 8px;
+          margin: 30px 0 72px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #master {
+    .container {
+      .master {
+        &--class {
+          width: 410px;
+          height: 86px;
+          margin: 20px 0 0 32px;
+          h2 {
+            font-size: 8px;
+            padding: 54px 100px 0 0;
+          }
+          p {
+            font-size: 6px;
+            padding: 13px 54px 53px 0;
+          }
+          &__group {
+          }
+        }
+        button {
+          margin: 30px 42px 72px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #master {
+    .container {
+      .master {
+        &--class {
+          width: 264px;
+          height: 86px;
+          h2 {
+            font-size: 9px;
+            padding: 55px 32px 0 22px;
+          }
+          p {
+            font-size: 6px;
+            padding: 6px 49px 53px 42px;
+          }
+          &__group {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #master{
+    .container{
+      .master{
+        h1{
+          font-size: 17px;
+        }
+        &--class{
+          margin: 20px 0 0 0px;
+          &__group{
+
+          }
+        }
+        .button{
+          margin: 26px 0px 72px 0;
+          padding: 12px 20px 12px 20px;
+        }
       }
     }
   }
