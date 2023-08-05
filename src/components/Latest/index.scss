@@ -75,3 +75,61 @@
     }
   }
 }
+
+
+
+
+
+////////media///////
+/// 
+/// 
+/// ////// /// /// 
+
+@media (max-width: 1200px) {
+  .container{
+    width: 90%;
+  }
+  #latest{
+    .latest{
+      &--blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__block{
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .container{
+    width: 90%;
+  }
+  #latest{
+    .latest{
+      &--blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__block{
+          width: 70%;
+          font-size: 20px;
+          margin: 8px 45px;
+          img{
+            width: 100%;
+          }
+          &--date{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            p1{
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

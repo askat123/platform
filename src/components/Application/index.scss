@@ -64,3 +64,60 @@
     }
   }
 }
+
+
+
+
+
+/////media//////
+
+
+
+
+@media (max-width: 1200px) {
+  #application .application--input input {
+    width: 500px;
+}
+}
+@media (max-width: 1040px) {
+  #application .application--input input {
+    width: 400px;
+}
+#application .application--title h1 {
+  font-size: 30px;
+}
+#application .application--title p {
+  font-size: 16px;
+  width: 246px;
+}
+}
+@media (max-width: 840px) {
+  #application .application--input input {
+    width: 350px;
+}
+#application .application--title h1 {
+  font-size: 28px;
+}
+#application .application--title p {
+  font-size: 13px;
+  width: 206px;
+}
+}
+@media (max-width: 670px) {
+  #application .application {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media (max-width: 420px) {
+  #application .application--input input {
+    width: 90%;
+}
+#application .application--title h1 {
+  font-size: 25px;
+}
+#application .application--title p {
+  font-size: 13px;
+  width: 176px;
+}
+}

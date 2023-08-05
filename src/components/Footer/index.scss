@@ -75,3 +75,38 @@
     }
   }
   
+
+
+
+  /////media////
+  
+  
+  @media (max-width: 1200px) {
+    .footer{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+  }
+  @media (max-width: 540px) {
+    #footer .footer--about {
+      display: none;
+  }
+  #footer .footer--address {
+    display: none;
+}
+#footer .footer {
+  display: flex;
+  align-items: flex-start;
+ justify-content: space-around;
+  color: aliceblue;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  }

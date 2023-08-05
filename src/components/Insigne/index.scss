@@ -43,6 +43,7 @@
           font-weight: 500;
           line-height: normal;
           padding: 15px 0;
+          width: 320px;
         }
         span {
           color: #000;
@@ -57,3 +58,64 @@
     }
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1200px) {
+    #insigne .insigne {
+      width: 95%;
+  }
+  }
+  @media (max-width: 1080px) {
+    #insigne .insigne--text h2 {
+      font-size: 25px;
+      width: 250px;
+  }
+  }
+  @media (max-width: 770px) {
+    #insigne .insigne--text h2 {
+      font-size: 24px;
+      width: 350px;
+  }
+  #insigne .insigne--text p {
+    font-size: 16px;
+    width: 300px;
+}
+  #insigne .insigne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 460px;
+  }
+  #insigne .insigne--text h2 {
+    font-size: 25px;
+    width: 300px;
+  }
+  }
+  @media (max-width: 385px) {
+    #insigne .insigne--text h2 {
+      font-size: 20px;
+      width: 180px;
+      padding-left: 10px;
+  }
+  #insigne .insigne--text p {
+      font-size: 18px;
+      width: 40%;
+      padding-left: 10px;
+  }
+  
+  
+  }

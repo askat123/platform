@@ -61,7 +61,7 @@
 ///
 ///
 
-@media (max-width: 120px) {
+@media (max-width: 1200px) {
   .container {
     width: 90%;
   }
@@ -229,6 +229,11 @@
   .container {
     width: 90%;
   }
+  #hero .hero--text {
+    font-family: sans-serif;
+    margin: -27px 0 -507px 77px;
+    width: 400px;
+}
   #hero {
     display: flex;
     flex-direction: column;
@@ -237,11 +242,13 @@
     justify-content: center;
     .hero {
       h1 {
-        font-size: 25px;
+        font-size: 30px;
         line-height: normal;
+        width: 290px;
       }
       p{
-        font-size: 14px;
+        font-size: 19px;
+        width: 290px;
       }
       .luch {
         display: none;
@@ -288,6 +295,11 @@
   .container {
     width: 90%;
   }
+  #hero .hero--text {
+    font-family: sans-serif;
+    margin: -27px 0 -507px 29px;
+    width: 400px;
+}
   #hero {
     display: flex;
     flex-direction: column;
@@ -338,10 +350,10 @@
             width: 469px;
             top: 400px;
             left: 70px;
-            width: 65%;
+            width: 75%;
           }
         }
       }
     }
   }
-}
+} 
