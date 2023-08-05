@@ -50,7 +50,7 @@
           padding: 0 30px 25px 0;
           color: #000;
         }
-        
+
         h3 {
           padding: 0 10px 35px 0;
           align-items: center;
@@ -76,13 +76,200 @@
       border: none;
       padding: 16px 61px 15px 61px;
       margin: 50px 0 0 500px;
-      transition: .2s;
-      &:hover{
+      transition: 0.2s;
+      &:hover {
         background: #fff;
         color: #043c71;
       }
-        
-      
+    }
+  }
+}
+
+@media (max-width: 856px) {
+  #kurs {
+    padding: 0 0 190px 0;
+    .container {
+      h1 {
+        font-size: 28px;
+        padding: 80px 0;
+      }
+      .kurs {
+        &--block {
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 9px;
+          }
+          &__one {
+            width: 224px;
+            height: 220px;
+            margin: 0 10px;
+            .icon {
+              width: 68px;
+              h3 {
+                font-size: 11px;
+              }
+              h4 {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        button {
+          margin: 31px 0 0 342px;
+          font-size: 8px;
+          padding: 10px 27px 12px 31px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #kurs {
+    padding: 0px 0 143px 0;
+    .container {
+      .kurs {
+        flex-wrap: wrap;
+        padding: 10px 0;
+        &--block {
+          gap: 30px;
+          flex-wrap: wrap;
+          padding: 0 37px;
+          h2 {
+            font-size: 15px;
+          }
+          p {
+            font-size: 10px;
+          }
+          &__one {
+            width: 269px;
+            height: 230px;
+            .icon {
+              h3 {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        button {
+          margin: 50px 0 0 252px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 678px) {
+  #kurs {
+    .container {
+      h1 {
+        font-size: 25px;
+        padding: 50px 0 22px 0;
+      }
+      .kurs {
+        &--block {
+          gap: 0;
+          h2 {
+            font-size: 10px;
+            padding: 21px 29px 12px 20px;
+          }
+          p {
+            font-size: 6px;
+            padding: 0 29px 8px 20px;
+          }
+
+          &__one {
+            width: 187px;
+            height: 150px;
+            .icon {
+              width: 44px;
+              height: 1px;
+              margin: 20px 0 0 20px;
+              h3 {
+                font-size: 7px;
+                padding: 0 7px 20px 0;
+              }
+              h4 {
+                font-size: 9px;
+                padding: 0px 22px 16px 0;
+              }
+            }
+          }
+        }
+        button {
+          margin: 32px 0 0 260px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #kurs {
+    .container {
+      .kurs {
+        &--block {
+          padding: 0px 112px;
+          gap: 30px;
+          &__one {
+            width: 220px;
+            height: 180px;
+            h2 {
+              font-size: 14px;
+            }
+            p {
+              font-size: 9px;
+            }
+            .icon {
+              width: 50px;
+              h3 {
+                font-size: 8px;
+              }
+            }
+          }
+        }
+        button {
+          margin: 32px 0 0 170px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #kurs {
+    .container {
+      .kurs {
+        &--block {
+          padding: 0px 40px;
+          &__one {
+            width: 226px;
+            height: 185px;
+          }
+        }
+        button {
+          margin: 32px 0 0 105px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #kurs {
+    .container {
+      .kurs {
+        &--block {
+          padding: 0px 10px;
+          &__one {
+          }
+        }
+        button {
+          margin: 21px 0 0 74px;
+        }
+      }
     }
   }
 }

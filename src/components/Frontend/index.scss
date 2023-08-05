@@ -87,3 +87,53 @@
     }
   }
 }
+
+
+@media (max-width: 856px) {
+  #frontend{
+    .container{
+      .frontend{
+        &--block{
+          h3{
+            font-size: 12px;
+          }
+          h1{
+            font-size: 30px;
+          }
+          p{
+            font-size: 15px;
+          }
+          button{
+            padding: 18px 34px 18px 34px;
+            font-size: 13px;
+          }
+        }
+        &--end{
+          margin: 27% 9% 0 0;
+          h3{
+            font-size: 16px;
+          }
+          h2{
+            font-size: 16px;
+          }
+          h4{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 856px) {
+  #frontend{
+    .container{
+      .frontend{
+        &--block{
+        }
+        &--end{
+          
+        }
+      }
+    }
+  }
+}

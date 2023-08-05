@@ -1,6 +1,6 @@
 #material {
   background: #0a1128;
-  padding: 50px 0 ;
+  padding: 50px 0;
   .matarial {
     display: flex;
     align-items: center;
@@ -61,5 +61,48 @@
       font-weight: 400;
       padding: 20px 0;
     }
+  }
+}
+
+@media (max-width: 850px) {
+  #material {
+    padding: 1px 0;
+    .container {
+      .matarial {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        &--book {
+          img {
+            width: 18%;
+            margin-left: 132px;
+          }
+          h1 {
+            font-size: 16px;
+            padding: 26px 0 22px 0;
+          }
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+    .block {
+      img{
+       width: 338px;
+       height: 381px;
+      }
+      p{
+        font-size: 16px;
+      }
+      h1{
+        font-size: 24px;
+      }
+      h4{
+        font-size: 16px;
+      }
+     }
   }
 }
