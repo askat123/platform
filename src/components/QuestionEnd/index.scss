@@ -11,6 +11,7 @@
     color: aliceblue;
     padding: 20px;
     padding-bottom: 20px;
+    font-weight: 500;
   }
   h1{
     color: white;
@@ -21,7 +22,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 40px;
 
     &--container {
       width: 600px;
@@ -32,11 +33,17 @@
       flex-shrink: 0;
     }
     .accordion-header {
+      margin-right: 26px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       color: white;
-      width: 730px;
+      width: 722px;
+      margin-left: -17px;
+      svg{
+        font-size: 40px;
+        font-weight: 200;
+      }
     }
     .line {
       width: 730px;
@@ -119,10 +126,17 @@
     margin-left: 20px;
 }
 }
-@media (max-width: 560px) {
-  #accordion .accordionn .line {
-    width: 90%;
-    margin: 0 0 10px 0;
+@media (max-width: 500px) {
+  
+#accordion .accordionn .line {
+  width: 90%;
+  margin: 0px 0px 10px -16px;
+}
+#accordion .accordionn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
 }
 #accordion .accordionn .accordion-header {
   width: 90%;

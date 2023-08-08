@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ Comments.scss";
+import { LoginContext } from "../../Context";
 
 const Comments = () => {
+  const {login,smsValue} =useContext(LoginContext)
   return (
     <div id="comments">
       <div className="comments">
         <h1>Коментарии</h1>
-        <p>Вы еще не написали комментариев</p>
+        <p>Ващи коментарии</p>
+        <div className="comments--block">
+        <h2>{login}</h2>
+        <p>{ new Date().toLocaleString()}</p>
+        </div>
       </div>
     </div>
   );

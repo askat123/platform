@@ -7,6 +7,7 @@ const Full = () => {
   return (
     <div id='full'>
       <div className="container">
+      
       <div className="full">
         <img src={lock} alt="" />
         <div className="full--text">
@@ -15,6 +16,10 @@ const Full = () => {
         </div>
         <Link><button>Получить доступ за 225,00$</button></Link>
       </div>
+      <h1 style={{
+        fontFamily: "Montserrat",
+        padding: "60px 0 0 0"
+      }}>Комментарии</h1>
       </div>
     </div>
   )

@@ -1,11 +1,12 @@
 import React from "react";
 import "../Home/index.scss";
-import img from "../../img/луч.png";
-import img1 from "../../img/img1.png";
-import img2 from "../../img/img2.png";
-import img3 from "../../img/men 1.png";
-import img4 from "../../img/img3.png";
-import img5 from "../../img/img4.png";
+import luch from "../../img/луч.png";
+import ten from "../../img/ten.png";
+import setting from "../../img/img1.png";
+import ka from "../../img/img2.png";
+import lump from "../../img/men 1.png";
+import boss from "../../img/img3.png";
+import men from "../../img/img4.png";
 import Latest from "../Latest";
 import Subscribe from "../Subscribe";
 import Application from "../Application";
@@ -27,13 +28,14 @@ const Home = () => {
               </p>
             </div>
             <div className="hero--img">
-              <img src={img} alt="" className="luch"/>
               <div className="hero--img__img1">
-                <img src={img1} alt="" className="hero--img__img1--a" />
-                <img src={img2} alt="" className="hero--img__img1--b" />
-                <img src={img3} alt="" className="hero--img__img1--i" />
-                <img src={img4} alt="" className="hero--img__img1--c" />
-                <img src={img5} alt="" className="hero--img__img1--d" />
+                <img src={ten} alt="" className="hero--img__img1--t"/>
+              <img src={luch} alt="" className="hero--img__img1--l"/>
+                <img src={setting} alt="" className="hero--img__img1--a" />
+                <img src={ka} alt="" className="hero--img__img1--b" />
+                <img src={lump} alt="" className="hero--img__img1--i" />
+                <img src={boss} alt="" className="hero--img__img1--c" />
+                <img src={men} alt="" className="hero--img__img1--d" />
               </div>
             </div>
           </div>

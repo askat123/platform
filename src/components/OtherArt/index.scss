@@ -1,5 +1,5 @@
 #otherart {
-    padding: 38px 0;
+    padding: 18px 0;
   .otherart {
     display: flex;
     align-items: center;
@@ -53,7 +53,25 @@
 
 
 
-
+@media (max-width: 1280px) {
+  #otherart .otherart {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+#full {
+  background: #0a1128;
+  padding: 35px 0;
+}
+#weprep {
+  background: #0a1128;
+  padding: 55px 0;
+}
+#otherart {
+  padding: 0 0 66px 0;
+}
+}
 
 
 @media (max-width: 410px) {

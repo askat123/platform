@@ -19,6 +19,10 @@ const Insigne = () => {
             <button>Получить доступ за 225,00$</button>
           </Link>
         </div>
+        <h1 style={{
+          fontFamily: "Montserrat",
+          padding: "60px 0 0 0"
+        }}>Другие статьи </h1>
       </div>
     </div>
   );

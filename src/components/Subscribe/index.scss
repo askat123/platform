@@ -1,6 +1,6 @@
 #subscribe {
   background: #0a1128;
-  padding: 143px 0 150px 0;
+  padding: 123px 0 150px 0;
   .subscribe {
     width: 95%;
     height: 240px;
@@ -97,6 +97,21 @@
   padding-top: 18px;
 }
 }
+@media (max-width: 834px) {
+  #subscribe .subscribe--btn button {
+    padding: 15px 20px;
+}
+#subscribe .subscribe--title h2 {
+  font-size: 21px;
+}
+#subscribe .subscribe {
+  width: 97%;
+  height: 210px;
+}
+#accordion .accordionn {
+  margin-left: 0px;
+}
+}
 @media (max-width: 770px) {
   #subscribe .subscribe--title h2 {
 
@@ -121,22 +136,33 @@
   flex-wrap: wrap;
 }
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   #subscribe .subscribe--title h2 {
-    width: 170px;
-    padding-left: 20px;
-    font-size: 18px;
-  }
-  #subscribe .subscribe--title p {
-  text-align: center;
-  width: 170px;
-  font-size: 10px;
-  padding-top: 18px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 80%;
+    padding: 10px 20px;
+}
+
+
+ #subscribe .subscribe--title p {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 18px 20px;
+    width: 50%;
 }
 #subscribe .subscribe {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+  height: 290px;
+  padding: 10px 0px;
 }
 }

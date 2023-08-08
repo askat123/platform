@@ -14,14 +14,16 @@
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
+        font-family: Montserrat,sans-serif;
       }
       p {
         color: #fff;
+        font-family: Montserrat,sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        width: 366px;
+        width: 396px;
         padding: 25px 0;
       }
     }
@@ -30,10 +32,10 @@
       align-items: flex-start;
       flex-direction: column;
       input {
-        width: 670px;
+        width: 650px;
         height: 57px;
         flex-shrink: 0;
-        background: #18223f;
+        background: #111b3a;
         border-radius: 10px;
         border: none;
         color: aliceblue;
@@ -41,6 +43,7 @@
         margin-bottom: 18px;
         outline: none;
         padding-left: 10px;
+        margin-right: 70px;
       }
       span {
         color: #b5b5b5;
@@ -48,6 +51,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        font-family: Montserrat,sans-serif;
+        padding-bottom: 5px;
       }
       button{
         padding: 18px 90px;
@@ -103,10 +108,14 @@
   width: 206px;
 }
 }
-@media (max-width: 670px) {
+@media (max-width: 500px) {
   #application .application {
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#application .application--input input {
+    width: 90%;
 }
 }
 @media (max-width: 420px) {
@@ -119,5 +128,9 @@
 #application .application--title p {
   font-size: 13px;
   width: 176px;
+}
+#application .application--title p {
+  font-size: 13px;
+  width: 333px;
 }
 }

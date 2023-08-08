@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import "./index.scss";
 import usercom from "../../img/usercom.png";
+import { LoginContext } from "../../Context";
 
 const Comment = () => {
+  const {login} = useContext(LoginContext)
   const [commentText, setCommentText] = useState("");
   const [comments, setComments] = useState(() => {
     const storedComments = localStorage.getItem("comments");
@@ -14,9 +16,14 @@ const Comment = () => {
   };
 
   const handleSubmit = () => {
+    if (!login) {
+      alert('Для написания комментария необходимо войти в аккаунт.');
+      return;
+    }
+
     if (commentText.trim() !== "") {
       const newComment = {
-        user: "Ваше имя",
+        user: login,
         timestamp: new Date().toLocaleString(),
         text: commentText,
       };
@@ -25,6 +32,7 @@ const Comment = () => {
       setCommentText("");
     }
   };
+
 
   useEffect(() => {
     localStorage.setItem("comments", JSON.stringify(comments));
