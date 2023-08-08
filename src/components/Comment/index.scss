@@ -10,16 +10,17 @@
       margin: 30px 0;
       input {
         width: 810.959px;
-        height: 136.141px;
+        height: 45.141px;
         border-radius: 7.359px;
         background: rgba(27, 41, 89, 0.4);
         display: flex;
         align-items: flex-start;
         border: none;
-        margin: 10px 20px;
+        margin: 10px 10px 0 10px;
         color: #fff;
+        font-family: Montserrat;
         font-size: 20px;
-        padding-left: 10px;
+        padding: 0 0 90px 15px;
       }
       button {
         display: inline-flex;
@@ -43,7 +44,7 @@
         height: 82px;
         display: flex;
         align-items: flex-start;
-        // justify-content: space-evenly;
+        // justify-content: space-evenly; 
         padding: 35px 0;
         gap: 10px;
         img{

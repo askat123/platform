@@ -84,7 +84,6 @@ const Application = () => {
                 onChange={(e) => setFoun(e.target.value)}
                 name="number"
                 type="tel"
-                placeholder="+996"
               />
               <span>Email*</span>
               {emailError && emailDirty && (

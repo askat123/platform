@@ -45,15 +45,7 @@ const WePrep = () => {
           </div>
         </div>
       <Full/>
-      <h1 style={{
-        color: "white",
-        padding: "100px 0 10px 70px"
-      }}>Комментарии</h1>
       <Insigne/>
-      <h1 style={{
-        color: "white",
-        padding: "10px 0 10px 70px"
-      }}>Другие статьи </h1>
       <OtherArt/>
       </div>
     </>
