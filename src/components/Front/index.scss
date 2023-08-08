@@ -136,6 +136,7 @@
       padding: 80px 0 80px 0;
     }
     &--btn1 {
+      cursor: pointer;
       color: #fff;
       font-family: Montserrat;
       font-size: 16px;
@@ -148,6 +149,7 @@
       border: none;
     }
     &--btn2 {
+      cursor: pointer;
       margin: 0 100px;
       color: #fff;
       font-family: Montserrat;
@@ -163,65 +165,328 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
+  #front{
+    .container{
+      .front{
+        &--end{
+          margin: 25% 7% 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
   #front{
     .container{
       .front{
         &--block{
-          h3{
-            font-size: 13px;
-            padding: 0px 0 82px 0;
-          }
-          h1{
-            font-size: 30px;
-          }
-          p{
-            font-size: 13px;
-          }
+         h3{
+          font-size: 14px;
+         }
+         h1{
+          font-size: 33px;
+         }
+         p{
+          font-size: 17px;
+          width: 97%;
+         }
         }
         &--end{
-          margin: 29% 8% 0 0;
-          h3{
-            font-size: 17px;
-          }
-          h2{
-            font-size: 16px;
-          }
+          margin: 31% 0% 0 0;
         }
       }
       .study{
-        h2{
-          font-size: 18px;
-        }
-        h3{
-          font-size: 13px;
-        }
         &--dev{
           p{
-            font-size: 15px;
+            font-size: 17px;
           }
         }
       }
       .kurs{
+        p{
+          font-size: 16px;
+          line-height: 31px;
+        }
         h2{
           font-size: 16px;
         }
-        p{
+        h3{
+          font-size: 16px;
+        }
+        &--btn1{
+          font-size: 14px;
+        }
+        &--btn2{
+          font-size: 14px;
+          margin: 0 76px
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #front {
+    .container {
+      .front {
+        &--block {
+          h3 {
+            font-size: 13px;
+            padding: 0px 0 82px 0;
+          }
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 13px;
+          }
+        }
+        &--end {
+          margin: 29% 8% 0 0;
+          h3 {
+            font-size: 17px;
+          }
+          h2 {
+            font-size: 16px;
+          }
+        }
+      }
+      .study {
+        h2 {
+          font-size: 18px;
+        }
+        h3 {
+          font-size: 13px;
+        }
+        &--dev {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+      .kurs {
+        h2 {
+          font-size: 16px;
+        }
+        p {
           font-size: 14px;
           line-height: 25px;
         }
-        h3{
+        h3 {
           font-size: 14px;
           padding: 0px 0 80px 0;
         }
-        &--btn1{
+        &--btn1 {
           padding: 18px 64px 18px 70px;
           font-size: 13px;
         }
-        &--btn2{
+        &--btn2 {
           font-size: 13px;
           padding: 18px 55px 18px 55px;
           margin: 0 70px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #front {
+    .container {
+      .front {
+        &--block {
+          h3 {
+            font-size: 11px;
+            padding: 0px 0 60px 0;
+          }
+          h1 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 12px;
+            width: 96%;
+            padding: 0 0 30px 0;
+          }
+        }
+        &--end {
+          margin: 29% 0% 0 0;
+          h3 {
+            font-size: 14px;
+          }
+          h2 {
+            font-size: 14px;
+          }
+          h4 {
+            font-size: 14px;
+          }
+        }
+      }
+      .study {
+        h2 {
+          padding: 11px 0 3px 0;
+        }
+        &--dev {
+          p {
+            font-size: 13px;
+          }
+          div {
+            width: 8px;
+            height: 7px;
+          }
+        }
+        &--developer {
+          margin: 145px -279px 0px -8px;
+        }
+      }
+      .kurs {
+        h2 {
+          padding: 30px 0 0 0;
+          font-size: 12px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin: 20px 0;
+        }
+        h3 {
+          font-size: 11px;
+          padding: 0px 0 55px 0;
+        }
+        &--btn1 {
+          padding: 15px 55px 15px 56px;
+          font-size: 11px;
+        }
+        &--btn2 {
+          font-size: 11px;
+          padding: 15px 40px 15px 40px;
+          margin: 0 45px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #front {
+    .container {
+      .front {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        &--block {
+          h3 {
+            font-size: 12px;
+            padding: 0px 0 49px 0;
+          }
+          h1 {
+            font-size: 27px;
+          }
+          p {
+            font-size: 14px;
+            width: 90%;
+            padding: 0 0 30px 0;
+          }
+        }
+        &--end {
+          margin: 3% 69% 0 0;
+          h3 {
+            font-size: 16px;
+          }
+          h2 {
+            font-size: 16px;
+            padding: 0 0 40px 0;
+          }
+          h4 {
+            font-size: 16px;
+          }
+        }
+      }
+      .study {
+        h2 {
+          padding: 11px 0 8px 14px;
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 14px;
+        }
+        flex-wrap: wrap;
+        &--dev {
+          margin: 30px 13px;
+          p {
+            font-size: 14px;
+          }
+        }
+        &--developer {
+          margin: 0 0 0 0;
+        }
+      }
+      .kurs {
+        h2 {
+          padding: 30px 0 0 14px;
+          font-size: 13px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 15px;
+          margin: 20px 16px;
+          width: 73%;
+        }
+        h3 {
+          font-size: 12px;
+          padding: 20px 0 55px 17px;
+          width: 88%;
+        }
+        &--btn1 {
+          padding: 15px 50px 15px 50px;
+        }
+        &--btn2 {
+          padding: 15px 35px 15px 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #front {
+    .container {
+      .front {
+
+      }
+        .kurs {
+          &--btn1{
+            padding: 15px 60px 15px 61px;
+            margin: 0 0 10px 48px;
+          }
+        }
+      
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #front{
+    padding: 77px 0;
+    .container{
+      .front{
+       &--end{
+        margin: 3% 48% 0 0;
+       }
+      }
+      .study{
+        h3{
+          font-size: 13px;
+        }
+      }
+      .kurs{
+        &--btn1{
+          margin: 0 0 10px 27px;
+        }
+        &--btn2{
+          margin: 0px 23px;
         }
       }
     }

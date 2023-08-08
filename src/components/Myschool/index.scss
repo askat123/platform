@@ -102,6 +102,72 @@
   }
 }
 
+@media (max-width: 1200px) {
+  #school {
+    .container {
+      .school {
+        img {
+          width: 435px;
+          height: 420px;
+          padding: 74px 0 0 110px;
+        }
+        h4 {
+          font-size: 13px;
+        }
+        &--one {
+          h1 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        &--two {
+          h1 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #school {
+    .container {
+      .school {
+        img {
+          width: 370px;
+          height: 353px;
+        }
+        h4 {
+          font-size: 12px;
+          padding: 0 0 70px 0;
+        }
+        &--one {
+          h1 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+        &--two {
+          h1 {
+            font-size: 25px;
+          }
+          p{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 856px) {
   #school {
     .container {
@@ -204,35 +270,35 @@
 }
 
 @media (max-width: 550px) {
-  #school{
-    .container{
-      .school{
-        h4{
+  #school {
+    .container {
+      .school {
+        h4 {
           display: none;
         }
-        &--one{
+        &--one {
           width: 260px;
 
-          h1{
+          h1 {
             font-size: 20px;
             padding: 0 0 15px 75px;
           }
-          p{
+          p {
             font-size: 12px;
             padding: 0 0 35px 75px;
           }
         }
-        &--two{
-          h1{
+        &--two {
+          h1 {
             font-size: 20px;
             padding: 0 0 15px 75px;
           }
-          p{
+          p {
             font-size: 12px;
             padding: 0 0 35px 75px;
           }
         }
-        img{
+        img {
           padding: 40px 0 0 100px;
         }
       }
@@ -241,27 +307,28 @@
 }
 
 @media (max-width: 400px) {
-  #school{
-    .container{
-      .school{
-        &--one{
-        h1{
-          padding: 0 0 15px 0;
+  #school {
+    .container {
+      .school {
+        &--one {
+          h1 {
+            padding: 0 0 15px 0;
+          }
+          p {
+            font-size: 10px;
+            padding: 0 0 32px 0px;
+          }
         }
-        p{
-          padding: 0 0 32px 0px;
-        }
-        }
-        &--two{
-          h1{
+        &--two {
+          h1 {
             padding: 0 0 15px 0px;
           }
-          p{
-            font-size: 9px;
+          p {
+            font-size: 10px;
             padding: 0 0 35px 0px;
           }
         }
-        img{
+        img {
           padding: 0px 0 0 0px;
           width: 232px;
           height: 222px;
@@ -272,11 +339,11 @@
 }
 
 @media (max-width: 300px) {
-  #school{
-    .container{
-      .school{
-        &--one{
-          p{
+  #school {
+    .container {
+      .school {
+        &--one {
+          p {
             font-size: 9px;
           }
         }

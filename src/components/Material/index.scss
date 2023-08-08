@@ -64,6 +64,48 @@
   }
 }
 
+@media (max-width: 1200px) {
+  #material {
+    .container {
+      .matarial {
+        &--book {
+          p {
+            font-size: 20px;
+          }
+          h1 {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #material {
+    .container {
+      .matarial {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        &--book {
+          img {
+            width: 82px;
+          }
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 850px) {
   #material {
     padding: 1px 0;
@@ -90,19 +132,84 @@
       }
     }
     .block {
-      img{
-       width: 338px;
-       height: 381px;
+      img {
+        width: 338px;
+        height: 381px;
       }
-      p{
+      p {
         font-size: 16px;
       }
-      h1{
+      h1 {
         font-size: 24px;
       }
-      h4{
+      h4 {
         font-size: 16px;
       }
-     }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #material {
+    .container {
+      .matarial {
+        p {
+          font-size: 15px;
+          padding: 0 0 30px 0;
+        }
+        &--block {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #material {
+    .container {
+      .matarial {
+        &--book {
+        }
+      }
+      .block {
+        img {
+          width: 276px;
+          height: 328px;
+        }
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        h4 {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #material {
+    .container {
+      .matarial {
+      }
+      .block {
+        img {
+          width: 244px;
+          height: 298px;
+        }
+        p {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 15px;
+        }
+        h4 {
+          font-size: 12px;
+        }
+      }
+    }
   }
 }

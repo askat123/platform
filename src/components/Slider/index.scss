@@ -15,6 +15,7 @@
     width: 95%;
     height: 330px;
     padding: 100px 0 30px 0;
+    cursor: pointer;
 
     margin: 0 auto;
     &::-webkit-scrollbar {
@@ -72,6 +73,10 @@
       }
     }
   }
+}
+
+@media (max-width: 1200px) {
+  
 }
 
 @media (max-width: 856px) {
@@ -215,14 +220,21 @@
 
 @media (max-width: 300px) {
   #slider {
+    padding: 0 0;
     .container {
+      h1{
+        font-size: 17px;
+      }
       .slider {
+        padding: 62px 0 30px 0;
+        height: 245px;
         &--block {
           p {
             width: 221px;
+            font-size: 10px;
           }
           h2 {
-            padding: 49px 0 15px 53px;
+            padding: 50px 0 15px 56px;
           }
           img {
             width: 54px;
@@ -230,11 +242,12 @@
             left: 100px;
           }
           span {
-            bottom: 30px;
-            left: -14px;
+            bottom: 20px;
+            left: -24px;
           }
           h4 {
             left: -18px;
+            bottom: 11px;
           }
         }
       }

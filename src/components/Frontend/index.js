@@ -6,6 +6,7 @@ import Programma from "../Programma";
 import Material from "../Material";
 import Prosess from "../Prosess";
 import Accardiones from "../../page/Accardiones";
+import MasterF from "../MasterF/MasterF";
 
 const Frontend = () => {
   return (
@@ -42,7 +43,7 @@ const Frontend = () => {
       <Programma />
       <Material />
       <Prosess />
-      <Accardiones/>
+      <MasterF/>
     </>
   );
 };

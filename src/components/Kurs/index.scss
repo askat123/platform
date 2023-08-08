@@ -23,7 +23,7 @@
         border: 2px solid white;
         border-radius: 10px;
         width: 390px;
-        height: 300px;
+        height: 285px;
       }
       h2 {
         padding: 30px 29px 20px 40px;
@@ -85,9 +85,73 @@
   }
 }
 
+@media (max-width: 1200px) {
+  #kurs {
+    padding: 0 0 230px 0;
+    .container {
+      .kurs {
+        &--block {
+          gap: 30px;
+          h2 {
+            padding: 30px 29px 20px 27px;
+          }
+          p {
+            font-size: 14px;
+            padding: 0 29px 17px 27px;
+          }
+          &__one {
+            width: 333px;
+            height: 293px;
+          }
+        }
+        button {
+          margin: 50px 0 0 426px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #kurs {
+    padding: 0 0 200px 0;
+    .container {
+      .kurs {
+        &--block {
+          h2 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 11px;
+            width: 85%;
+          }
+          .icon {
+            width: 66px;
+            h3 {
+              font-size: 11px;
+            }
+            h4 {
+              font-size: 16px;
+              padding: 0px 0px 28px 0;
+            }
+          }
+          &__one {
+            width: 269px;
+            height: 240px;
+          }
+        }
+        button {
+          font-size: 13px;
+          margin: 38px 0 0 354px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 856px) {
   #kurs {
-    padding: 0 0 190px 0;
+    padding: 0 0 138px 0;
     .container {
       h1 {
         font-size: 28px;
@@ -95,17 +159,21 @@
       }
       .kurs {
         &--block {
+          gap: 0;
           h2 {
             font-size: 14px;
+            padding: 30px 29px 20px 12px;
           }
           p {
             font-size: 9px;
+            padding: 0 29px 17px 12px;
           }
           &__one {
             width: 224px;
-            height: 220px;
+            height: 211px;
             margin: 0 10px;
             .icon {
+              margin: 25px 0 0 13px;
               width: 68px;
               h3 {
                 font-size: 11px;
@@ -117,7 +185,7 @@
           }
         }
         button {
-          margin: 31px 0 0 342px;
+          margin: 31px 0 0 324px;
           font-size: 8px;
           padding: 10px 27px 12px 31px;
         }
@@ -136,7 +204,10 @@
         &--block {
           gap: 30px;
           flex-wrap: wrap;
-          padding: 0 37px;
+          padding: 0 26px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           h2 {
             font-size: 15px;
           }
@@ -154,7 +225,9 @@
           }
         }
         button {
-          margin: 50px 0 0 252px;
+          margin: 32px 0 0 288px;
+          font-size: 11px;
+          padding: 13px 32px 13px 32px;
         }
       }
     }
@@ -240,13 +313,14 @@
 
 @media (max-width: 400px) {
   #kurs {
+    padding: 0px 0 100px 0;
     .container {
       .kurs {
         &--block {
           padding: 0px 40px;
           &__one {
             width: 226px;
-            height: 185px;
+            height: 178px;
           }
         }
         button {
