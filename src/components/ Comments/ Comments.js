@@ -3,7 +3,7 @@ import "./ Comments.scss";
 import { LoginContext } from "../../Context";
 
 const Comments = () => {
-  const {login,smsValue} =useContext(LoginContext)
+  const {login,} =useContext(LoginContext)
   return (
     <div id="comments">
       <div className="comments">

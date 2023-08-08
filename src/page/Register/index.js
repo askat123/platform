@@ -246,8 +246,8 @@ const Register = () => {
           </h4>
           <h2>Благодарим за покупку!!!</h2>
           <p>Теперь вам доступен курс “Frontend разработчик” </p>
-          <Link>
-            {" "}
+          <Link to={"/yourFront"}>
+            {""}
             <button>Ок, посмотреть покупку </button>
           </Link>
         </div>

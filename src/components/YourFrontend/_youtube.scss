@@ -1,0 +1,25 @@
+@mixin break ($point){
+  @if $point == xxl {
+    @media (max-width: 1380px) {@content}
+  }
+   @else if $point == xl {
+     @media (max-width: 1155px) {@content}
+   }
+  @else if $point == xll{
+    @media (max-width: 1092px) {@content}
+
+  }  @else if $point == lg{
+     @media (max-width: 1005px) {@content}
+
+   }@else if $point == lgg{
+     @media (max-width: 910px) {@content}
+
+   }@else if $point == md{
+     @media (max-width: 740px) {@content}
+   }@else if $point == sk{
+     @media (max-width: 495px) {@content}
+   }@else if $point == sl{
+     @media (max-width: 360px) {@content}}
+
+
+}

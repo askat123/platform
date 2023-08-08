@@ -1,0 +1,329 @@
+@import '_youtube';
+#frontTube{
+  background: #0a1128;
+  //width: 100%;
+  .container {
+    //width: 100%;
+    @include break(sk){
+      width: 100%;
+    }
+    .frontTube_front {
+      height: auto;
+      padding-left: 20px;
+
+      td {
+        height: 197px;
+        display: flex;
+
+        align-items: center;
+
+        th {
+          font-family: Montserat sans-serif;
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 400;
+
+        }
+
+      }
+
+      h1{
+        padding-bottom: 30px;
+        color: #FFFFFF;
+        @include break(sl){
+          font-size: 20px;
+          padding-bottom: 20px;
+        }
+        @include break(md){
+          display: flex;
+          justify-content: center;
+        }
+
+
+      }
+
+      &--general {
+        display: flex;
+        justify-content: space-between;
+        height: 240px;
+        width: 90%;
+        //width: 95%;
+        @include break(md){
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: center;
+          height: 340px;
+          width: 98%;
+          padding-left: 12px;
+        }
+
+
+
+        &__one {
+
+          h1 {
+            font-size: 36px;
+            font-weight: 700;
+            font-family: Montserat, sans-serif;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+            @include break(lgg){
+              font-size: 20px;
+              font-weight: 500;
+              margin:0;
+            }
+
+          }
+
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #FFFFFF;
+
+
+
+          }
+
+        }
+
+
+        &__two {
+          @include break(lgg){
+         width: 300px;
+            @include break(md){
+              width: 98%;
+
+
+            }
+          }
+          h3 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            font-family: Montserat, sans-serif;
+            margin-bottom: 8px;
+
+          }
+
+          input {
+            width: 400px;
+            height: 20px;
+            @include break(lgg){
+               width: 300px;
+              height: 10px;
+            }
+            @include break(md){
+              width: 95%;
+              justify-items: center;
+            }
+
+          }
+
+          &--module {
+            display: flex;
+            justify-content: space-between;
+            @include break(md){
+              width: 80%;
+              justify-items: center;
+            }
+
+            p {
+              display: flex;
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: #FFFFFF;
+              @include  break(sl){
+                font-size: 12px;
+              }
+
+            }
+          }
+        }
+      }
+
+      &--video {
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        width: 95%;
+        @include break(lg){
+          width: 100%;
+        }
+        @include break(xll){
+
+        }
+        @include break(xl){
+        }
+        @include break(md){
+          flex-wrap: wrap;
+        }
+&_-player{
+  max-width: 700px;
+  min-width:280px ;
+  max-height: 390px;
+  min-height: 190px;
+  @include break(xxl){
+    width: 100%;
+    height: 100%;
+
+  }
+
+  @include break(lg){
+    margin-right:10px ;
+  }
+  @include break(md){
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  @include break(xl) {
+
+  }
+  @include break(sl) {
+   width: 300px;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+        &__action {
+          display: flex;
+          flex-wrap: wrap;
+          width: 450px;
+          min-width:280px ;
+          @include break(xll){
+            margin-left: 5px;
+          }
+          @include break(lgg){
+            width: 450px;
+          }@include break(sl){
+          width: 285px;
+          margin-bottom: -16px;
+                     }
+
+
+          &--open {
+            width: 503px;
+            min-width: 200px;
+            height: 63px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            @include break(lg){
+              width: 365px;
+              padding-left: 5px;
+            }
+            @include break(sl){
+              width:279px;
+            }
+
+
+            button {
+              width: 156px;
+              height: 68px;
+              background: #034781;
+              font-size: 20px;
+              font-family: Montserat sans-serif;
+              font-weight: 500;
+              color: #FFFFFF;
+              border-radius: 5px;
+
+              @include break(xll){
+                width: 25%;
+                font-size: 15px;
+              }
+              @include break(sl) {
+                width: 25%;
+                height: 66%;
+                font-size: 15px;
+              }
+            }
+
+            &__text {
+              display: flex;
+              flex-direction: column;
+
+              h3 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: white;
+                margin-bottom: 17px;
+                @include break(sl) {
+                  font-size:15px;
+                }
+                @include break(sl) {
+                  margin-bottom:0;
+                }
+
+              }
+
+              p {
+                font-weight: 600;
+                font-size: 16px;
+                color: #FFFFFF;
+                @include break(sl) {
+                  font-size:12px;
+                  //width: 80px;
+                }
+
+              }
+            }
+
+            span {
+              color: #FFFFFF;
+              display: flex;
+              align-items: center;
+              width: 20px;
+              font-size: 32px;
+              @include break(sl) {
+                padding-top: 10px;
+               align-items: start;
+                font-size: 14px;
+              }
+
+            }
+
+          }
+
+          &--block {
+            display: flex;
+            justify-content: space-between;
+            color: #FFFFFF;
+            padding-left: 12px;
+            transition: 0.4s;
+            position: relative;
+             @include break(sl){
+               height: 30px;
+             }
+
+            h5 {
+              margin-top: 8px;
+            }
+
+            &__-text {
+              margin: 0 0 0 0;
+              padding-Left: 25px;
+              gap: 8px;
+              @include break(sl) {
+                gap:0;
+                padding-left: 5px;
+                font-size: 10px;
+
+              }
+            }
+
+
+          }
+
+        }
+      }
+    }
+  }
+}
