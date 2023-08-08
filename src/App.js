@@ -19,6 +19,7 @@ import Account from "./components/Account";
 import Masterdt from "./components/Master-dt";
 import Youtube from "./components/Youtube/Youtube";
 import Profil from "./page/Profil";
+import FrontTube from "./components/YourFrontend/Front-tube";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/master-dt" element={<Masterdt/>}/>
         <Route path="/youtube" element={<Youtube/>}/>
         <Route path="/профиль" element={<Profil/>}/>
+        <Route path="/yourFront" element={<FrontTube/>}/>
       </Routes>
       <Footer />
     </div>
